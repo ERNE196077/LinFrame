@@ -135,7 +135,7 @@ void USART_SetBaudrate(Usart *pUsart,
 void USART_Configure(Usart *pUsart,
 		uint32_t mode,
 		uint32_t baudrate,
-		uint32_t masterClock)
+		uint32_t master`Clock)
 {
 
 	/* Reset and disable receiver & transmitter*/
@@ -464,4 +464,39 @@ void USART_AcknowledgeRxTimeOut(Usart *pUsart, uint8_t Periodic)
 		// Puts USARt in Idle mode and waits for a char after timeout
 		pUsart->US_CR = US_CR_STTTO; 
 	}
+}
+/**
+ * \brief  Set LIN mode
+ *
+ * \param pUsart  Pointer to an USART peripheral.
+ * \param Mode  Mode to set in LIN Mode Register
+ * \return None
+ */
+void USART_LinSetMode(Usart *pUsart, uint32_t mode)
+{
+	
+		pUsart->US_LINMR = mode & 0x0003FFFF;     // Restart timeout timer
+	
+}
+/**
+ * \brief  Write Id to be sent as LIN Master node
+ *
+ * \param pUsart  Pointer to an USART peripheral.
+ * \param Id  Id to besent
+ * \return None
+ */
+void USART_WriteId(Usart *pUsart, uint8_t Id)
+{
+	pUsart->US_LINIR = Id ;
+}
+/**
+ * \brief  Gather status of TXREADY flag
+ *
+ * \param pUsart  Pointer to an USART peripheral.
+ * \param None
+ * \return None
+ */
+void USART_TxReady(void)
+{
+	return pUsart->US_CSR & US_CSR_TXRDY ;
 }

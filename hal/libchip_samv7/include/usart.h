@@ -155,6 +155,11 @@ void USART_EnableTxTimeGaurd(Usart *pUsart, uint32_t TimeGaurd);
 
 void USART_AcknowledgeRxTimeOut(Usart *usart, uint8_t Periodic);
 
+void USART_LinSetMode(Usart *pUsart, uint32_t mode);
+
+void USART_LinWriteId(Usart *pUsart, uint8_t Id);
+
+void USART_LinTxReady(void);
 
 #ifdef __cplusplus
 }

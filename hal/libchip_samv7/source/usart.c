@@ -485,7 +485,7 @@ void USART_LinSetMode(Usart *pUsart, uint32_t mode)
  * \param Id  Id to besent
  * \return None
  */
-void USART_WriteId(Usart *pUsart, uint8_t Id)
+void USART_LinWriteId(Usart *pUsart, uint8_t Id)
 {
 	pUsart->US_LINIR = Id ;
 }
@@ -496,7 +496,7 @@ void USART_WriteId(Usart *pUsart, uint8_t Id)
  * \param None
  * \return None
  */
-void USART_TxReady(void)
+void USART_LinTxReady(void)
 {
 	return pUsart->US_CSR & US_CSR_TXRDY ;
 }

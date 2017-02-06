@@ -31,14 +31,14 @@ void Lin_Init (const LinConfigType_t* Config){
 		USART_SetTransmitterEnabled (Config->LinChannel[i]->IdUsart , 1);
 		USART_SetReceiverEnabled (Config->LinChannel[i]->IdUsart , 1);
 
-		USART_EnableIt(Config->LinChannel[i]->IdUsart, US_IER_RXRDY);
+		USART_EnableIt(Config->LinChannel[i]->IdUsart, US_IER_LINTC);  //US_IER_RXRDY |
 		/* Enable interrupt  */
 		NVIC_EnableIRQ(Config->LinChannel[i]->IrqnUsart);	
 	}
 }	
 
 
-short int Lin_SendFrame (uint8_t Channel, LinPduType* PduInfoPtr){
+Std_ReturnType_t Lin_SendFrame (uint8_t Channel, LinPduType* PduInfoPtr){
 
 	frame_cfg = US_LINMR_NACT_SUBSCRIBE |
 			PduInfoPtr->Cs ? US_LINMR_CHKTYP : 0x0 |
@@ -47,13 +47,15 @@ short int Lin_SendFrame (uint8_t Channel, LinPduType* PduInfoPtr){
 
 	USART_LinSetMode(LinConfig->LinChannel[Chanel]->pUsart, frame_cfg );
 
-	while (!USART_TxReady)
+	while (!USART_LinTxReady())
 	{ } 
-	USART_WriteId(LinConfig->LinChannel[Chanel]->pUsart,PduInfoPtr->Pid);
+	USART_LinWriteId(LinConfig->LinChannel[Chanel]->pUsart,PduInfoPtr->Pid);
 
+	return E_OK;
 }
 
-short int Lin_GetSlaveResponse (uint8_t Channel, uint8_t** LinSduPtr){
+Std_ReturnType_t Lin_GetSlaveResponse (uint8_t Channel, uint8_t** LinSduPtr){
 
 
+	return E_OK;
 }

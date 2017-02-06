@@ -1,7 +1,7 @@
 
 
 #include "stdlib.h"
-#include "uart.h"
+#include "usart.h"
 #include "lin.h"
 
 tUartCallbackFunction Lin_Isr (){
@@ -10,6 +10,8 @@ tUartCallbackFunction Lin_Isr (){
 
 static LinConfigType_t* LinConfig;
 
+void USART_Configure( Usart *pUsart, uint32_t mode, uint32_t baudrate,
+					uint32_t masterClock ) ;
 
 void Lin_Init (const LinConfigType_t* Config){
 	
@@ -21,7 +23,7 @@ void Lin_Init (const LinConfigType_t* Config){
 	
 		/* Reset & disable receiver and transmitter, disable interrupts */
 		USART_Configure( Config[i]->pUsart, US_MR_USART_MODE_LIN_MASTER, 
-			Config->LinChannel[i]->LinChannelBaudrate, BOARD_MCK ) ;
+			(uint32_t)Config->LinChannel[i]->LinChannelBaudrate, BOARD_MCK ) ;
 
 		/* Clear pending IRQs and Set priority of IRQs */
 		NVIC_ClearPendingIRQ(Config->LinChannel[i]->IrqnUsart);

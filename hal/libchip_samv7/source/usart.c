@@ -135,7 +135,7 @@ void USART_SetBaudrate(Usart *pUsart,
 void USART_Configure(Usart *pUsart,
 		uint32_t mode,
 		uint32_t baudrate,
-		uint32_t master`Clock)
+		uint32_t masterClock)
 {
 
 	/* Reset and disable receiver & transmitter*/
@@ -496,7 +496,7 @@ void USART_LinWriteId(Usart *pUsart, uint8_t Id)
  * \param None
  * \return None
  */
-void USART_LinTxReady(void)
+uint32_t USART_LinTxReady(Usart *pUsart)
 {
 	return pUsart->US_CSR & US_CSR_TXRDY ;
 }

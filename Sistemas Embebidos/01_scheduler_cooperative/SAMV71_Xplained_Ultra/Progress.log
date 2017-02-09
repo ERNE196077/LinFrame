@@ -1,9 +1,10 @@
-INITIALIZING	Emulator: EDBG CMSIS-DAP   Debugger: On-chip
-LOADING	C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\tau.elf
+CONVERTING	C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\tau.elf
+LOADING	C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\tau.elf
 ANALYZING
 ANALYZING
 EMULATION	POD: Cortex (JTAG,SWD)   CPU: Cortex-M7
 DEBUG	PROTOCOL: SWD; RESET: SoC
-CPU	CPUID=0x410FC271 (M7 variant 0, revision 1)
-LOADING 	40828 bytes
+LOADING 	42980 bytes
+UMI INFO	Loading UMI monitor...
 PROGRAMMING	Atmel ATSAMV7 (2048 kB) (3 sectors)
+UMI INFO	Unloading UMI monitor...

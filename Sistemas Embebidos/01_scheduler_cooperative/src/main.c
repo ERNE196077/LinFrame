@@ -30,9 +30,21 @@
 #include    "wdt_ctrl.h"
 /** Dynamic Memory allocation services */
 #include    "memory_allocation.h"
+/** Dynamic Memory allocation services */
+#include    "lin.h"
 
 /*~~~~~~  Local definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+uint8_t sdutestvar = 0x33;
 
+LinPduType_t LinPduTest = { 0xAB,
+               LIN_ENHANCED_CS,           
+               LIN_MASTER_RESPONSE,
+               1,            
+               &sdutestvar};
+       
+       
+
+extern LinConfigType_t LinConfiguration;
 /*~~~~~~  Global variables ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
@@ -62,6 +74,15 @@ extern int main( void )
 	vfnScheduler_Init();
 	/* Start scheduler */
 	vfnScheduler_Start();
+  /* Configure LIN interfaces */
+  Lin_Init(&LinConfiguration);
+  
+  
+  /* Transfer Test */
+  Lin_SendFrame (1, &LinPduTest);
+  
+  
+  
 	
 	/* Once all the basic services have been started, go to infinite loop to serviced activated tasks */
 	for(;;)

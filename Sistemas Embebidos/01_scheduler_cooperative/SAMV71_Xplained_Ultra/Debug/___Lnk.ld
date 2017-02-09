@@ -27,25 +27,28 @@
 /* EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                           */
 /* ---------------------------------------------------------------------------- */
 
-INPUT ("C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o" 
-"C:\Users\ernestrc\Documents\ITESO\1er Semestre\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o")
+INPUT ("C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o" 
+"C:\Users\ernesto\Documents\ITESO\2do_Semestre\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o")
 
 /*------------------------------------------------------------------------------
  *      Linker script for running in internal FLASH on the ATSAMV71Q21

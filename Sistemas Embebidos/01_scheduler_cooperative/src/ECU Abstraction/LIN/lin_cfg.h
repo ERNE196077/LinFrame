@@ -10,7 +10,7 @@ typedef struct _LinChannelType_t_{
 	Usart *pUsart;
 	uint32_t IdUsart;
 	IRQn_Type IrqnUsart;
-	uint16_t LinChannelBaudrate;
+	uint32_t LinChannelBaudrate;
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_

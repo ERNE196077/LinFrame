@@ -1,7 +1,7 @@
 #ifndef _LIN_TYPES_H_
 #define _LIN_TYPES_H_
 
-#include <typedefs.h>
+#include "std_types.h"
 
 typedef uint8_t LinFramedPidType;  	/*  LIN frame identifier along with its two parity bits. Range: 0xFE */
 typedef enum _LinFrameCsModelType_t_{

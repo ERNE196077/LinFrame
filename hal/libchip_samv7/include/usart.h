@@ -159,7 +159,7 @@ void USART_LinSetMode(Usart *pUsart, uint32_t mode);
 
 void USART_LinWriteId(Usart *pUsart, uint8_t Id);
 
-void USART_LinTxReady(void);
+uint32_t USART_LinTxReady(Usart *pUsart);
 
 #ifdef __cplusplus
 }

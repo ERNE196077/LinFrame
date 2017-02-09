@@ -152,7 +152,7 @@ main:
 	ldr	r0, .L6
 	bl	Lin_Init
 	.loc 3 82 0
-	movs	r0, #1
+	movs	r0, #0
 	ldr	r1, .L6+4
 	bl	Lin_SendFrame
 .L5:

@@ -79,7 +79,7 @@ extern int main( void )
   
   
   /* Transfer Test */
-  Lin_SendFrame (1, &LinPduTest);
+  Lin_SendFrame (0, &LinPduTest);
   
   
   
@@ -87,6 +87,6 @@ extern int main( void )
 	/* Once all the basic services have been started, go to infinite loop to serviced activated tasks */
 	for(;;)
     {
-		vfnTask_Scheduler();
+ 		vfnTask_Scheduler();
 	}
 }

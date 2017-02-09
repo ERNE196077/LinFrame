@@ -26818,7 +26818,7 @@ tUartCallbackFunction Lin_Isr (){
 
 }
 
-const Pin pins[] = {{(1u << 21), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 4), ((Pio *)0x400E1000U), (11), 3, (0 << 0)}, {(1u << 25), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 24), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 23), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)} };
+const Pin pins[] = {{(1u << 0), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 1), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 2), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 3), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 13), ((Pio *)0x400E1000U), (11), 2,(0 << 0)} };
 static LinConfigType_t* LinConfig;
 
 
@@ -26832,40 +26832,42 @@ void Lin_Init (LinConfigType_t* Config){
 
   PIO_Configure(pins, (sizeof(pins) / sizeof(Pin)));
 
-  PMC_EnablePeripheral(Config->LinChannel[i].IdUsart);
-
-
-  USART_Configure( Config->LinChannel[i].pUsart, (0xAu << 0)|(0x0u << 4)|(0x3u << 6)|(0x0u << 14)|(0x4u << 9)|(0x0u << 12),
-   (uint32_t)Config->LinChannel[i].LinChannelBaudrate, 150000000 ) ;
-
-
-
-
-
 
   USART_SetTransmitterEnabled (Config->LinChannel[i].pUsart , 1);
   USART_SetReceiverEnabled (Config->LinChannel[i].pUsart , 1);
 
+  PMC_EnablePeripheral(Config->LinChannel[i].IdUsart);
+
+
+  USART_Configure( Config->LinChannel[i].pUsart, (0xAu << 0)|(0x0u << 4)|(0x0u << 14),
+   (uint32_t)Config->LinChannel[i].LinChannelBaudrate, 150000000 ) ;
+
+
+  NVIC_ClearPendingIRQ(Config->LinChannel[i].IrqnUsart);
+  NVIC_SetPriority(Config->LinChannel[i].IrqnUsart, 1);
 
 
 
+  NVIC_EnableIRQ(Config->LinChannel[i].IrqnUsart);
  }
 }
 
 
 Std_ReturnType_t Lin_SendFrame (uint8_t Channel, LinPduType_t* PduInfoPtr){
 
- uint32_t frame_cfg =
-   (PduInfoPtr->Cs ? (0x1u << 4) : 0x0 | 0x1) |
-   (0x2u << 0) |
-   (((0xffu << 8) & ((PduInfoPtr->Drc) << 8))) ;
+ uint32_t frame_cfg = ((PduInfoPtr->Cs ? (0x1u << 4) : 0x0 | 0x1)<< 4) |
+       (0x0u << 0) |
+       (((0xffu << 8) & ((1) << 8)));
 
  USART_LinSetMode(LinConfig->LinChannel[Channel].pUsart, frame_cfg );
 
- while (!USART_LinTxReady(LinConfig->LinChannel[Channel].pUsart))
- { }
+ while (!USART_LinTxReady(LinConfig->LinChannel[Channel].pUsart)) { }
+
  USART_LinWriteId(LinConfig->LinChannel[Channel].pUsart,PduInfoPtr->Pid);
-  printf("Fuck/n/r%08x",LinConfig->LinChannel[Channel].pUsart->US_CSR);
+
+ while (!(LinConfig->LinChannel[Channel].pUsart->US_CSR & (0x1u << 15)))
+ USART_Write( LinConfig->LinChannel[Channel].pUsart, 0xFD , 0);
+
  return E_OK;
 }
 

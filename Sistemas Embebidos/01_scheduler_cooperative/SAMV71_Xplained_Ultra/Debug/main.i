@@ -27117,7 +27117,7 @@ extern int main( void )
 
 
 
-  Lin_SendFrame (1, &LinPduTest);
+  Lin_SendFrame (0, &LinPduTest);
 
 
 
@@ -27125,6 +27125,6 @@ extern int main( void )
 
  for(;;)
     {
-  vfnTask_Scheduler();
+   vfnTask_Scheduler();
  }
 }

@@ -47,6 +47,9 @@ LinPduType_t LinPduTest = { 0x55,
 extern LinConfigType_t LinConfiguration;
 /*~~~~~~  Global variables ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+#define USART0_PINS {PIN_USART0_RXD, PIN_USART0_TXD, PIN_USART0_CTS, PIN_USART0_RTS, PIN_USART0_SCK }
+#define USART1_PINS {PIN_USART1_RXD, PIN_USART1_TXD, PIN_USART1_CTS, PIN_USART1_RTS, PIN_USART1_SCK }
+#define USART2_PINS {PIN_USART2_RXD, PIN_USART2_TXD, PIN_USART2_CTS, PIN_USART2_RTS, PIN_USART2_SCK }
 
 /*~~~~~~  Local functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 

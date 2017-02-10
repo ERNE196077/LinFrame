@@ -26762,12 +26762,11 @@ extern int _write( int file, char *ptr, int len );
 
 
 
+
 typedef struct _LinChannelType_t_{
  uint8_t LinChannelId;
- Usart *pUsart;
- uint32_t IdUsart;
- IRQn_Type IrqnUsart;
  uint32_t LinChannelBaudrate;
+ Pin pins[5];
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_
@@ -26814,41 +26813,51 @@ Std_ReturnType_t Lin_SendFrame (uint8_t Channel, LinPduType_t* PduInfoPtr);
 Std_ReturnType_t Lin_GetSlaveResponse (uint8_t Channel, uint8_t** LinSduPtr);
 # 7 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN\\lin.c" 2
 
+#define USART_BASE 0x40024000U
+#define USART_PAGESIZE 0x4000U
+#define USART_ADDR(US_NUM) ((Usart *)(USART_BASE + (USART_PAGESIZE * (US_NUM))))
+#define USART_IDSTART (13)
+#define USART_IDN(US_NUM) (USART_IDSTART + (US_NUM))
+#define USART_IRQNSTART (13)
+#define USART_IRQN(US_NUM) (USART_IRQNSTART + (US_NUM))
+
+static LinConfigType_t* LinConfig;
+
+
 tUartCallbackFunction Lin_Isr (){
 
 }
-
-const Pin pins[] = {{(1u << 0), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 1), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 2), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 3), ((Pio *)0x400E1000U), (11), 2, (0 << 0)}, {(1u << 13), ((Pio *)0x400E1000U), (11), 2,(0 << 0)} };
-static LinConfigType_t* LinConfig;
 
 
 void Lin_Init (LinConfigType_t* Config){
 
  LinConfig = Config;
-
+ uint8_t ChannelNumber;
+  Usart *tmp;
   int i;
  for (i = 0; i < Config->LinNumberOfChannels ; i++)
  {
+  ChannelNumber = Config->LinChannel[i].LinChannelId;
 
-  PIO_Configure(pins, (sizeof(pins) / sizeof(Pin)));
-
-
-  USART_SetTransmitterEnabled (Config->LinChannel[i].pUsart , 1);
-  USART_SetReceiverEnabled (Config->LinChannel[i].pUsart , 1);
-
-  PMC_EnablePeripheral(Config->LinChannel[i].IdUsart);
+  PIO_Configure(Config->LinChannel[i].pins, (sizeof(Config->LinChannel[i].pins) / sizeof(Pin)));
 
 
-  USART_Configure( Config->LinChannel[i].pUsart, (0xAu << 0)|(0x0u << 4)|(0x0u << 14),
+  USART_SetTransmitterEnabled (((Usart *)(0x40024000U + (0x4000U * (ChannelNumber)))) , 1);
+  USART_SetReceiverEnabled (((Usart *)(0x40024000U + (0x4000U * (ChannelNumber)))) , 1);
+
+  PMC_EnablePeripheral(((13) + (ChannelNumber)));
+
+
+  USART_Configure( ((Usart *)(0x40024000U + (0x4000U * (ChannelNumber)))), (0xAu << 0)|(0x0u << 4)|(0x0u << 14),
    (uint32_t)Config->LinChannel[i].LinChannelBaudrate, 150000000 ) ;
 
 
-  NVIC_ClearPendingIRQ(Config->LinChannel[i].IrqnUsart);
-  NVIC_SetPriority(Config->LinChannel[i].IrqnUsart, 1);
+  NVIC_ClearPendingIRQ(((13) + (ChannelNumber)));
+  NVIC_SetPriority(((13) + (ChannelNumber)), 1);
 
 
 
-  NVIC_EnableIRQ(Config->LinChannel[i].IrqnUsart);
+  NVIC_EnableIRQ(((13) + (ChannelNumber)));
  }
 }
 
@@ -26856,18 +26865,22 @@ void Lin_Init (LinConfigType_t* Config){
 Std_ReturnType_t Lin_SendFrame (uint8_t Channel, LinPduType_t* PduInfoPtr){
 
  uint32_t frame_cfg = ((PduInfoPtr->Cs ? (0x1u << 4) : 0x0 | 0x1)<< 4) |
-       (0x0u << 0) |
-       (((0xffu << 8) & ((1) << 8)));
+       (PduInfoPtr->Drc ? (0x1u << 0) : (0x0u << 0)) |
+       (((0xffu << 8) & ((PduInfoPtr->Dl-1u) << 8))) ;
 
- USART_LinSetMode(LinConfig->LinChannel[Channel].pUsart, frame_cfg );
+ USART_LinSetMode(((Usart *)(0x40024000U + (0x4000U * (Channel)))), frame_cfg );
 
- while (!USART_LinTxReady(LinConfig->LinChannel[Channel].pUsart)) { }
+ while (!USART_LinTxReady(((Usart *)(0x40024000U + (0x4000U * (Channel)))))) { }
 
- USART_LinWriteId(LinConfig->LinChannel[Channel].pUsart,PduInfoPtr->Pid);
+ USART_LinWriteId(((Usart *)(0x40024000U + (0x4000U * (Channel)))),PduInfoPtr->Pid);
 
- while (!(LinConfig->LinChannel[Channel].pUsart->US_CSR & (0x1u << 15)))
- USART_Write( LinConfig->LinChannel[Channel].pUsart, 0xFD , 0);
+ int j = 0;
+ while (!(((Usart *)(0x40024000U + (0x4000U * (Channel))))->US_CSR & (0x1u << 15))){
+  USART_Write( ((Usart *)(0x40024000U + (0x4000U * (Channel)))), *(PduInfoPtr->SduPtr++) , 0);
+  j++;
+ }
 
+ printf("Total de envios %d \n\r",j);
  return E_OK;
 }
 

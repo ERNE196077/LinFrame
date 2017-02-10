@@ -34,9 +34,9 @@
 #include    "lin.h"
 
 /*~~~~~~  Local definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-uint8_t sdutestvar = 0x33;
+uint8_t sdutestvar = 0xF0;
 
-LinPduType_t LinPduTest = { 0xAB,
+LinPduType_t LinPduTest = { 0x55,
                LIN_ENHANCED_CS,           
                LIN_MASTER_RESPONSE,
                1,            
@@ -79,7 +79,7 @@ extern int main( void )
   
   
   /* Transfer Test */
-  Lin_SendFrame (0, &LinPduTest);
+  Lin_SendFrame (1, &LinPduTest);
   
   
   

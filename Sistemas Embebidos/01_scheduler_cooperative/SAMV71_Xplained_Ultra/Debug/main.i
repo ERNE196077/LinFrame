@@ -27031,12 +27031,11 @@ void vfnMemAlloc_Erase( uint8_t * StartAddress , uint16_t u16SizeinBytes);
 
 
 
+
 typedef struct _LinChannelType_t_{
  uint8_t LinChannelId;
- Usart *pUsart;
- uint32_t IdUsart;
- IRQn_Type IrqnUsart;
  uint32_t LinChannelBaudrate;
+ Pin pins[5];
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_
@@ -27084,9 +27083,9 @@ Std_ReturnType_t Lin_GetSlaveResponse (uint8_t Channel, uint8_t** LinSduPtr);
 # 35 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\main.c" 2
 
 
-uint8_t sdutestvar = 0x33;
+uint8_t sdutestvar = 0xF0;
 
-LinPduType_t LinPduTest = { 0xAB,
+LinPduType_t LinPduTest = { 0x55,
                LIN_ENHANCED_CS,
                LIN_MASTER_RESPONSE,
                1,
@@ -27117,7 +27116,7 @@ extern int main( void )
 
 
 
-  Lin_SendFrame (0, &LinPduTest);
+  Lin_SendFrame (1, &LinPduTest);
 
 
 

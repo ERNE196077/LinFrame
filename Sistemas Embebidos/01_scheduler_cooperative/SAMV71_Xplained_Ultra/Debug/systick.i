@@ -1,5 +1,5 @@
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick//"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick//"
 # 1 "<built-in>"
 #define __STDC__ 1
 #define __STDC_HOSTED__ 1
@@ -361,10 +361,10 @@
 # 1 "<command-line>"
 #define __USES_INITFINI__ 1
 #define __SAMV71Q21__ 1
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
-# 15 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 1
-# 13 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
+# 15 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 1
+# 13 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h"
 #define __SYSTICK_H 
 
 
@@ -372,28 +372,28 @@
 
 
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h" 1
-# 32 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h" 1
+# 32 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define _COMPILER_H_ 
 
 
 
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h"
 #define _SAMV71_ 
-# 50 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 50 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
 #define _SAMV71Q21_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
-# 9 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 1 3 4
-# 10 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 1 3 4
+# 9 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 1 3 4
+# 10 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define _STDINT_H 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 1 3 4
 
 
 
@@ -401,10 +401,10 @@
 
 #define _MACHINE__DEFAULT_TYPES_H 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
-# 22 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 1 3 4
+# 22 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define _SYS_FEATURES_H 
-# 31 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 3 4
+# 31 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\features.h" 3 4
 #define __NEWLIB__ 2
 #define __NEWLIB_MINOR__ 2
 
@@ -419,7 +419,7 @@
 
 
 #define __GNUC_PREREQ__(ma,mi) __GNUC_PREREQ(ma, mi)
-# 9 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
+# 9 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 2 3 4
 
 
 
@@ -427,7 +427,7 @@
 
 
 #define __EXP(x) __ ##x ##__
-# 27 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 27 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int8_t;
 
 typedef unsigned char __uint8_t;
@@ -449,7 +449,7 @@ typedef short unsigned int __uint16_t;
 
 
 #define ___int16_t_defined 1
-# 63 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 63 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int32_t;
 
 typedef long unsigned int __uint32_t;
@@ -457,7 +457,7 @@ typedef long unsigned int __uint32_t;
 
 
 #define ___int32_t_defined 1
-# 89 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 89 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int64_t;
 
 typedef long long unsigned int __uint64_t;
@@ -465,7 +465,7 @@ typedef long long unsigned int __uint64_t;
 
 
 #define ___int64_t_defined 1
-# 120 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 120 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef signed char __int_least8_t;
 
 typedef unsigned char __uint_least8_t;
@@ -473,7 +473,7 @@ typedef unsigned char __uint_least8_t;
 
 
 #define ___int_least8_t_defined 1
-# 146 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 146 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef short int __int_least16_t;
 
 typedef short unsigned int __uint_least16_t;
@@ -481,7 +481,7 @@ typedef short unsigned int __uint_least16_t;
 
 
 #define ___int_least16_t_defined 1
-# 168 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 168 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long int __int_least32_t;
 
 typedef long unsigned int __uint_least32_t;
@@ -489,7 +489,7 @@ typedef long unsigned int __uint_least32_t;
 
 
 #define ___int_least32_t_defined 1
-# 186 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 186 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 typedef long long int __int_least64_t;
 
 typedef long long unsigned int __uint_least64_t;
@@ -507,11 +507,11 @@ typedef long long unsigned int __uint_least64_t;
 typedef int __intptr_t;
 
 typedef unsigned int __uintptr_t;
-# 214 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
+# 214 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_default_types.h" 3 4
 #undef __EXP
-# 13 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
-# 10 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 13 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 1 3 4
+# 10 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _SYS__INTSUP_H 
 
 
@@ -519,7 +519,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __STDINT_EXP(x) __ ##x ##__
-# 26 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 26 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __have_longlong64 1
 
 
@@ -528,7 +528,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __have_long32 1
-# 49 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 49 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
        
        
        
@@ -547,7 +547,7 @@ typedef unsigned int __uintptr_t;
 #define short +1
 #define int +2
 #define long +4
-# 77 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 77 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define _INT32_EQ_LONG 
 
 
@@ -557,11 +557,11 @@ typedef unsigned int __uintptr_t;
 
 
 #define __INT8 "hh"
-# 96 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 96 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT16 "h"
-# 107 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 107 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT32 "l"
-# 116 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 116 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __INT64 "ll"
 
 
@@ -570,7 +570,7 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST8 
-# 132 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 132 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST16 
 
 
@@ -579,17 +579,17 @@ typedef unsigned int __uintptr_t;
 
 
 #define __FAST32 
-# 150 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 150 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __FAST64 "ll"
 
 
 
 #define __LEAST8 "hh"
-# 165 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 165 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST16 "h"
-# 176 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 176 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST32 "l"
-# 185 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
+# 185 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_intsup.h" 3 4
 #define __LEAST64 "ll"
 
 #undef signed
@@ -604,11 +604,11 @@ typedef unsigned int __uintptr_t;
        
        
        
-# 14 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
-# 10 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 14 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 1 3 4
+# 10 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 #define _SYS__STDINT_H 
-# 19 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
+# 19 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_stdint.h" 3 4
 typedef __int8_t int8_t ;
 typedef __uint8_t uint8_t ;
 #define __int8_t_defined 1
@@ -634,7 +634,7 @@ typedef __uint64_t uint64_t ;
 
 typedef __intptr_t intptr_t;
 typedef __uintptr_t uintptr_t;
-# 15 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
+# 15 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 2 3 4
 
 
 
@@ -662,7 +662,7 @@ typedef __uint_least32_t uint_least32_t;
 typedef __int_least64_t int_least64_t;
 typedef __uint_least64_t uint_least64_t;
 #define __int_least64_t_defined 1
-# 51 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 51 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 #define __int_fast8_t_defined 1
@@ -696,9 +696,9 @@ typedef __uint_least64_t uint_least64_t;
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
 #define __int_fast64_t_defined 1
-# 130 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 130 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long int intmax_t;
-# 139 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 139 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
   typedef long long unsigned int uintmax_t;
 
 
@@ -710,7 +710,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INTPTR_MIN (-__INTPTR_MAX__ - 1)
 #define INTPTR_MAX (__INTPTR_MAX__)
 #define UINTPTR_MAX (__UINTPTR_MAX__)
-# 171 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 171 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT8_MIN (-__INT8_MAX__ - 1)
 #define INT8_MAX (__INT8_MAX__)
 #define UINT8_MAX (__UINT8_MAX__)
@@ -724,7 +724,7 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST8_MIN (-__INT_LEAST8_MAX__ - 1)
 #define INT_LEAST8_MAX (__INT_LEAST8_MAX__)
 #define UINT_LEAST8_MAX (__UINT_LEAST8_MAX__)
-# 193 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 193 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_MIN (-__INT16_MAX__ - 1)
 #define INT16_MAX (__INT16_MAX__)
 #define UINT16_MAX (__UINT16_MAX__)
@@ -738,39 +738,39 @@ typedef __uint_least64_t uint_least64_t;
 #define INT_LEAST16_MIN (-__INT_LEAST16_MAX__ - 1)
 #define INT_LEAST16_MAX (__INT_LEAST16_MAX__)
 #define UINT_LEAST16_MAX (__UINT_LEAST16_MAX__)
-# 215 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 215 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_MIN (-__INT32_MAX__ - 1)
 #define INT32_MAX (__INT32_MAX__)
 #define UINT32_MAX (__UINT32_MAX__)
-# 231 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 231 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST32_MIN (-__INT_LEAST32_MAX__ - 1)
 #define INT_LEAST32_MAX (__INT_LEAST32_MAX__)
 #define UINT_LEAST32_MAX (__UINT_LEAST32_MAX__)
-# 249 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 249 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_MIN (-__INT64_MAX__ - 1)
 #define INT64_MAX (__INT64_MAX__)
 #define UINT64_MAX (__UINT64_MAX__)
-# 265 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 265 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_LEAST64_MIN (-__INT_LEAST64_MAX__ - 1)
 #define INT_LEAST64_MAX (__INT_LEAST64_MAX__)
 #define UINT_LEAST64_MAX (__UINT_LEAST64_MAX__)
-# 281 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 281 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST8_MIN (-__INT_FAST8_MAX__ - 1)
 #define INT_FAST8_MAX (__INT_FAST8_MAX__)
 #define UINT_FAST8_MAX (__UINT_FAST8_MAX__)
-# 297 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 297 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST16_MIN (-__INT_FAST16_MAX__ - 1)
 #define INT_FAST16_MAX (__INT_FAST16_MAX__)
 #define UINT_FAST16_MAX (__UINT_FAST16_MAX__)
-# 313 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 313 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST32_MIN (-__INT_FAST32_MAX__ - 1)
 #define INT_FAST32_MAX (__INT_FAST32_MAX__)
 #define UINT_FAST32_MAX (__UINT_FAST32_MAX__)
-# 329 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 329 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT_FAST64_MIN (-__INT_FAST64_MAX__ - 1)
 #define INT_FAST64_MAX (__INT_FAST64_MAX__)
 #define UINT_FAST64_MAX (__UINT_FAST64_MAX__)
-# 345 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 345 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_MAX (__INTMAX_MAX__)
 #define INTMAX_MIN (-INTMAX_MAX - 1)
 
@@ -809,9 +809,9 @@ typedef __uint_least64_t uint_least64_t;
 
 
 #define WCHAR_MIN (__WCHAR_MIN__)
-# 393 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 393 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WCHAR_MAX (__WCHAR_MAX__)
-# 403 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 403 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define WINT_MAX (__WINT_MAX__)
 
 
@@ -826,25 +826,25 @@ typedef __uint_least64_t uint_least64_t;
 
 #define INT8_C(x) __INT8_C(x)
 #define UINT8_C(x) __UINT8_C(x)
-# 427 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 427 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT16_C(x) __INT16_C(x)
 #define UINT16_C(x) __UINT16_C(x)
-# 439 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 439 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT32_C(x) __INT32_C(x)
 #define UINT32_C(x) __UINT32_C(x)
-# 452 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 452 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INT64_C(x) __INT64_C(x)
 #define UINT64_C(x) __UINT64_C(x)
-# 468 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
+# 468 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdint.h" 3 4
 #define INTMAX_C(x) __INTMAX_C(x)
 #define UINTMAX_C(x) __UINTMAX_C(x)
-# 10 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
+# 10 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdint.h" 2 3 4
 
 
 
 #define _GCC_WRAP_STDINT_H 
-# 48 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 57 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 48 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 57 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
 typedef enum IRQn
 {
 
@@ -1105,27 +1105,27 @@ void XDMAC_Handler ( void );
 
 
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 1
-# 48 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 1
+# 48 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define __CORE_CM7_H_GENERIC 
-# 72 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 72 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define __CM7_CMSIS_VERSION_MAIN (0x03)
 #define __CM7_CMSIS_VERSION_SUB (0x20)
 #define __CM7_CMSIS_VERSION ((__CM7_CMSIS_VERSION_MAIN << 16) | __CM7_CMSIS_VERSION_SUB )
 
 
 #define __CORTEX_M (0x07)
-# 86 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 86 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define __ASM __asm
 #define __INLINE inline
 #define __STATIC_INLINE static inline
-# 130 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 130 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define __FPU_USED 1
-# 189 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h" 1
-# 25 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 189 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h" 1
+# 25 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 #define __CORE_CMINSTR_H 
-# 286 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 286 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline void __NOP(void)
 {
   __asm volatile ("nop");
@@ -1162,7 +1162,7 @@ __attribute__( ( always_inline ) ) static inline void __SEV(void)
 {
   __asm volatile ("sev");
 }
-# 330 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 330 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline void __ISB(void)
 {
   __asm volatile ("isb");
@@ -1189,7 +1189,7 @@ __attribute__( ( always_inline ) ) static inline void __DMB(void)
 {
   __asm volatile ("dmb");
 }
-# 365 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 365 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __REV(uint32_t value)
 {
   uint32_t result;
@@ -1197,7 +1197,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __REV(uint32_t value)
   __asm volatile ("rev %0, %1" : "=r" (result) : "r" (value) );
   return(result);
 }
-# 381 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 381 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __REV16(uint32_t value)
 {
   uint32_t result;
@@ -1205,7 +1205,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __REV16(uint32_t value
   __asm volatile ("rev16 %0, %1" : "=r" (result) : "r" (value) );
   return(result);
 }
-# 397 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 397 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline int32_t __REVSH(int32_t value)
 {
   uint32_t result;
@@ -1213,14 +1213,14 @@ __attribute__( ( always_inline ) ) static inline int32_t __REVSH(int32_t value)
   __asm volatile ("revsh %0, %1" : "=r" (result) : "r" (value) );
   return(result);
 }
-# 414 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 414 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __ROR(uint32_t op1, uint32_t op2)
 {
 
   __asm volatile ("ror %0, %0, %1" : "+r" (op1) : "r" (op2) );
   return(op1);
 }
-# 431 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 431 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __RBIT(uint32_t value)
 {
   uint32_t result;
@@ -1228,7 +1228,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __RBIT(uint32_t value)
    __asm volatile ("rbit %0, %1" : "=r" (result) : "r" (value) );
    return(result);
 }
-# 447 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 447 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint8_t __LDREXB(volatile uint8_t *addr)
 {
     uint8_t result;
@@ -1236,7 +1236,7 @@ __attribute__( ( always_inline ) ) static inline uint8_t __LDREXB(volatile uint8
    __asm volatile ("ldrexb %0, [%1]" : "=r" (result) : "r" (addr) );
    return(result);
 }
-# 463 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 463 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint16_t __LDREXH(volatile uint16_t *addr)
 {
     uint16_t result;
@@ -1244,7 +1244,7 @@ __attribute__( ( always_inline ) ) static inline uint16_t __LDREXH(volatile uint
    __asm volatile ("ldrexh %0, [%1]" : "=r" (result) : "r" (addr) );
    return(result);
 }
-# 479 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 479 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __LDREXW(volatile uint32_t *addr)
 {
     uint32_t result;
@@ -1252,7 +1252,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __LDREXW(volatile uint
    __asm volatile ("ldrex %0, [%1]" : "=r" (result) : "r" (addr) );
    return(result);
 }
-# 497 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 497 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __STREXB(uint8_t value, volatile uint8_t *addr)
 {
    uint32_t result;
@@ -1260,7 +1260,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __STREXB(uint8_t value
    __asm volatile ("strexb %0, %2, [%1]" : "=&r" (result) : "r" (addr), "r" (value) );
    return(result);
 }
-# 515 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 515 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __STREXH(uint16_t value, volatile uint16_t *addr)
 {
    uint32_t result;
@@ -1268,7 +1268,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __STREXH(uint16_t valu
    __asm volatile ("strexh %0, %2, [%1]" : "=&r" (result) : "r" (addr), "r" (value) );
    return(result);
 }
-# 533 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 533 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __STREXW(uint32_t value, volatile uint32_t *addr)
 {
    uint32_t result;
@@ -1287,11 +1287,11 @@ __attribute__( ( always_inline ) ) static inline void __CLREX(void)
 {
   __asm volatile ("clrex");
 }
-# 561 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 561 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 #define __SSAT(ARG1,ARG2) ({ uint32_t __RES, __ARG1 = (ARG1); __ASM ("ssat %0, %1, %2" : "=r" (__RES) : "I" (ARG2), "r" (__ARG1) ); __RES; })
-# 577 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 577 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 #define __USAT(ARG1,ARG2) ({ uint32_t __RES, __ARG1 = (ARG1); __ASM ("usat %0, %1, %2" : "=r" (__RES) : "I" (ARG2), "r" (__ARG1) ); __RES; })
-# 592 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
+# 592 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmInstr.h"
 __attribute__( ( always_inline ) ) static inline uint8_t __CLZ(uint32_t value)
 {
   uint8_t result;
@@ -1299,11 +1299,11 @@ __attribute__( ( always_inline ) ) static inline uint8_t __CLZ(uint32_t value)
   __asm volatile ("clz %0, %1" : "=r" (result) : "r" (value) );
   return(result);
 }
-# 190 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h" 1
-# 39 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 190 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h" 1
+# 39 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 #define __CORE_CMFUNC_H 
-# 329 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 329 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __enable_irq(void)
 {
   __asm volatile ("cpsie i" : : : "memory");
@@ -1319,7 +1319,7 @@ __attribute__( ( always_inline ) ) static inline void __disable_irq(void)
 {
   __asm volatile ("cpsid i" : : : "memory");
 }
-# 352 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 352 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_CONTROL(void)
 {
   uint32_t result;
@@ -1327,12 +1327,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_CONTROL(void)
   __asm volatile ("MRS %0, control" : "=r" (result) );
   return(result);
 }
-# 367 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 367 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_CONTROL(uint32_t control)
 {
   __asm volatile ("MSR control, %0" : : "r" (control) : "memory");
 }
-# 379 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 379 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_IPSR(void)
 {
   uint32_t result;
@@ -1340,7 +1340,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_IPSR(void)
   __asm volatile ("MRS %0, ipsr" : "=r" (result) );
   return(result);
 }
-# 394 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 394 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_APSR(void)
 {
   uint32_t result;
@@ -1348,7 +1348,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_APSR(void)
   __asm volatile ("MRS %0, apsr" : "=r" (result) );
   return(result);
 }
-# 409 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 409 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_xPSR(void)
 {
   uint32_t result;
@@ -1356,7 +1356,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_xPSR(void)
   __asm volatile ("MRS %0, xpsr" : "=r" (result) );
   return(result);
 }
-# 424 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 424 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_PSP(void)
 {
   register uint32_t result;
@@ -1364,12 +1364,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_PSP(void)
   __asm volatile ("MRS %0, psp\n" : "=r" (result) );
   return(result);
 }
-# 439 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 439 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_PSP(uint32_t topOfProcStack)
 {
   __asm volatile ("MSR psp, %0\n" : : "r" (topOfProcStack) : "sp");
 }
-# 451 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 451 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_MSP(void)
 {
   register uint32_t result;
@@ -1377,12 +1377,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_MSP(void)
   __asm volatile ("MRS %0, msp\n" : "=r" (result) );
   return(result);
 }
-# 466 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 466 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_MSP(uint32_t topOfMainStack)
 {
   __asm volatile ("MSR msp, %0\n" : : "r" (topOfMainStack) : "sp");
 }
-# 478 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 478 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_PRIMASK(void)
 {
   uint32_t result;
@@ -1390,12 +1390,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_PRIMASK(void)
   __asm volatile ("MRS %0, primask" : "=r" (result) );
   return(result);
 }
-# 493 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 493 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_PRIMASK(uint32_t priMask)
 {
   __asm volatile ("MSR primask, %0" : : "r" (priMask) : "memory");
 }
-# 506 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 506 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __enable_fault_irq(void)
 {
   __asm volatile ("cpsie f" : : : "memory");
@@ -1411,7 +1411,7 @@ __attribute__( ( always_inline ) ) static inline void __disable_fault_irq(void)
 {
   __asm volatile ("cpsid f" : : : "memory");
 }
-# 529 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 529 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_BASEPRI(void)
 {
   uint32_t result;
@@ -1419,12 +1419,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_BASEPRI(void)
   __asm volatile ("MRS %0, basepri_max" : "=r" (result) );
   return(result);
 }
-# 544 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 544 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_BASEPRI(uint32_t value)
 {
   __asm volatile ("MSR basepri, %0" : : "r" (value) : "memory");
 }
-# 556 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 556 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_FAULTMASK(void)
 {
   uint32_t result;
@@ -1432,12 +1432,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_FAULTMASK(void)
   __asm volatile ("MRS %0, faultmask" : "=r" (result) );
   return(result);
 }
-# 571 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 571 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_FAULTMASK(uint32_t faultMask)
 {
   __asm volatile ("MSR faultmask, %0" : : "r" (faultMask) : "memory");
 }
-# 587 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 587 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __get_FPSCR(void)
 {
 
@@ -1452,7 +1452,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __get_FPSCR(void)
 
 
 }
-# 609 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
+# 609 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmFunc.h"
 __attribute__( ( always_inline ) ) static inline void __set_FPSCR(uint32_t fpscr)
 {
 
@@ -1462,11 +1462,11 @@ __attribute__( ( always_inline ) ) static inline void __set_FPSCR(uint32_t fpscr
   __asm volatile ("");
 
 }
-# 191 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h" 1
-# 43 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
+# 191 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h" 1
+# 43 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
 #define __CORE_CMSIMD_H 
-# 158 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
+# 158 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __SADD8(uint32_t op1, uint32_t op2)
 {
   uint32_t result;
@@ -1983,7 +1983,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __QSUB(uint32_t op1, u
 
 
 #define __PKHTB(ARG1,ARG2,ARG3) ({ uint32_t __RES, __ARG1 = (ARG1), __ARG2 = (ARG2); if (ARG3 == 0) __ASM ("pkhtb %0, %1, %2" : "=r" (__RES) : "r" (__ARG1), "r" (__ARG2) ); else __ASM ("pkhtb %0, %1, %2, asr %3" : "=r" (__RES) : "r" (__ARG1), "r" (__ARG2), "I" (ARG3) ); __RES; })
-# 683 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
+# 683 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cmSimd.h"
 __attribute__( ( always_inline ) ) static inline uint32_t __SMMLA (int32_t op1, int32_t op2, int32_t op3)
 {
  int32_t result;
@@ -1991,7 +1991,7 @@ __attribute__( ( always_inline ) ) static inline uint32_t __SMMLA (int32_t op1, 
  __asm volatile ("smmla %0, %1, %2, %3" : "=r" (result): "r" (op1), "r" (op2), "r" (op3) );
  return(result);
 }
-# 192 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
+# 192 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 2
 
 
 
@@ -1999,12 +1999,12 @@ __attribute__( ( always_inline ) ) static inline uint32_t __SMMLA (int32_t op1, 
 
 
 #define __CORE_CM7_H_DEPENDANT 
-# 249 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 249 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define __I volatile const
 
 #define __O volatile
 #define __IO volatile
-# 281 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 281 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef union
 {
   struct
@@ -2078,7 +2078,7 @@ typedef union
   } b;
   uint32_t w;
 } CONTROL_Type;
-# 366 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 366 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile uint32_t ISER[8];
@@ -2099,7 +2099,7 @@ typedef struct
 
 #define NVIC_STIR_INTID_Pos 0
 #define NVIC_STIR_INTID_Msk (0x1FFUL << NVIC_STIR_INTID_Pos)
-# 398 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 398 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile const uint32_t CPUID;
@@ -2472,7 +2472,7 @@ typedef struct
 
 #define SCB_ABFSR_ITCM_Pos 0
 #define SCB_ABFSR_ITCM_Msk (1UL << SCB_ABFSR_ITCM_Pos)
-# 782 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 782 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
        uint32_t RESERVED0[1];
@@ -2499,7 +2499,7 @@ typedef struct
 
 #define SCnSCB_ACTLR_DISMCYCINT_Pos 0
 #define SCnSCB_ACTLR_DISMCYCINT_Msk (1UL << SCnSCB_ACTLR_DISMCYCINT_Pos)
-# 820 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 820 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile uint32_t CTRL;
@@ -2538,7 +2538,7 @@ typedef struct
 
 #define SysTick_CALIB_TENMS_Pos 0
 #define SysTick_CALIB_TENMS_Msk (0xFFFFFFUL << SysTick_VAL_CURRENT_Pos)
-# 870 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 870 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile union
@@ -2628,7 +2628,7 @@ typedef struct
 
 #define ITM_LSR_Present_Pos 0
 #define ITM_LSR_Present_Msk (1UL << ITM_LSR_Present_Pos)
-# 971 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 971 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile uint32_t CTRL;
@@ -2765,7 +2765,7 @@ typedef struct
 
 #define DWT_FUNCTION_FUNCTION_Pos 0
 #define DWT_FUNCTION_FUNCTION_Msk (0xFUL << DWT_FUNCTION_FUNCTION_Pos)
-# 1119 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1119 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile uint32_t SSPSR;
@@ -2907,7 +2907,7 @@ typedef struct
 
 #define TPI_DEVTYPE_MajorType_Pos 4
 #define TPI_DEVTYPE_MajorType_Msk (0xFUL << TPI_DEVTYPE_MajorType_Pos)
-# 1273 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1273 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile const uint32_t TYPE;
@@ -2987,7 +2987,7 @@ typedef struct
 
 #define MPU_RASR_ENABLE_Pos 0
 #define MPU_RASR_ENABLE_Msk (1UL << MPU_RASR_ENABLE_Pos)
-# 1366 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1366 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
        uint32_t RESERVED0[1];
@@ -3080,7 +3080,7 @@ typedef struct
 
 #define FPU_MVFR1_FtZ_mode_Pos 0
 #define FPU_MVFR1_FtZ_mode_Msk (0xFUL << FPU_MVFR1_FtZ_mode_Pos)
-# 1471 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1471 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 typedef struct
 {
   volatile uint32_t DHCSR;
@@ -3172,7 +3172,7 @@ typedef struct
 
 #define CoreDebug_DEMCR_VC_CORERESET_Pos 0
 #define CoreDebug_DEMCR_VC_CORERESET_Msk (1UL << CoreDebug_DEMCR_VC_CORERESET_Pos)
-# 1573 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1573 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define SCS_BASE (0xE000E000UL)
 #define ITM_BASE (0xE0000000UL)
 #define DWT_BASE (0xE0001000UL)
@@ -3199,7 +3199,7 @@ typedef struct
 
 #define FPU_BASE (SCS_BASE + 0x0F30UL)
 #define FPU ((FPU_Type *) FPU_BASE )
-# 1635 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1635 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
 {
   uint32_t reg_value;
@@ -3212,43 +3212,43 @@ static inline void NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
                 (PriorityGroupTmp << 8));
   ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->AIRCR = reg_value;
 }
-# 1655 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1655 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t NVIC_GetPriorityGrouping(void)
 {
   return ((((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->AIRCR & (7UL << 8)) >> 8);
 }
-# 1667 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1667 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_EnableIRQ(IRQn_Type IRQn)
 {
 
   ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISER[(uint32_t)((int32_t)IRQn) >> 5] = (uint32_t)(1 << ((uint32_t)((int32_t)IRQn) & (uint32_t)0x1F));
 }
-# 1680 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1680 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_DisableIRQ(IRQn_Type IRQn)
 {
   ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ICER[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F));
 }
-# 1696 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1696 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t NVIC_GetPendingIRQ(IRQn_Type IRQn)
 {
   return((uint32_t) ((((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISPR[(uint32_t)(IRQn) >> 5] & (1 << ((uint32_t)(IRQn) & 0x1F)))?1:0));
 }
-# 1708 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1708 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_SetPendingIRQ(IRQn_Type IRQn)
 {
   ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISPR[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F));
 }
-# 1720 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1720 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_ClearPendingIRQ(IRQn_Type IRQn)
 {
   ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ICPR[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F));
 }
-# 1735 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1735 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t NVIC_GetActive(IRQn_Type IRQn)
 {
   return((uint32_t)((((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->IABR[(uint32_t)(IRQn) >> 5] & (1 << ((uint32_t)(IRQn) & 0x1F)))?1:0));
 }
-# 1750 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1750 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
 {
   if(IRQn < 0) {
@@ -3256,7 +3256,7 @@ static inline void NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
   else {
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->IP[(uint32_t)(IRQn)] = ((priority << (8 - 3)) & 0xff); }
 }
-# 1770 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1770 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t NVIC_GetPriority(IRQn_Type IRQn)
 {
 
@@ -3265,7 +3265,7 @@ static inline uint32_t NVIC_GetPriority(IRQn_Type IRQn)
   else {
     return((uint32_t)(((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->IP[(uint32_t)(IRQn)] >> (8 - 3))); }
 }
-# 1792 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1792 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority)
 {
   uint32_t PriorityGroupTmp = (PriorityGroup & 0x07);
@@ -3280,7 +3280,7 @@ static inline uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t Pre
            ((SubPriority & ((1 << (SubPriorityBits )) - 1)))
          );
 }
-# 1820 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1820 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline void NVIC_DecodePriority (uint32_t Priority, uint32_t PriorityGroup, uint32_t* pPreemptPriority, uint32_t* pSubPriority)
 {
   uint32_t PriorityGroupTmp = (PriorityGroup & 0x07);
@@ -3309,7 +3309,7 @@ static inline void NVIC_SystemReset(void)
   __DSB();
   while(1);
 }
-# 1860 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 1860 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 #define CCSIDR_WAYS(x) (((x) & SCB_CCSIDR_ASSOCIATIVITY_Msk) >> SCB_CCSIDR_ASSOCIATIVITY_Pos)
 #define CCSIDR_SETS(x) (((x) & SCB_CCSIDR_NUMSETS_Msk ) >> SCB_CCSIDR_NUMSETS_Pos )
 #define CCSIDR_LSSHIFT(x) (((x) & SCB_CCSIDR_LINESIZE_Msk ) >> SCB_CCSIDR_LINESIZE_Pos )
@@ -3529,7 +3529,7 @@ static inline void SCB_CleanInvalidateDCache(void)
     __ISB();
 
 }
-# 2109 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 2109 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t SysTick_Config(uint32_t ticks)
 {
   if ((ticks - 1) > (0xFFFFFFUL << 0)) return (1);
@@ -3542,10 +3542,10 @@ static inline uint32_t SysTick_Config(uint32_t ticks)
                    (1UL << 0);
   return (0);
 }
-# 2135 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 2135 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 extern volatile int32_t ITM_RxBuffer;
 #define ITM_RXBUFFER_EMPTY 0x5AA55AA5
-# 2149 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 2149 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline uint32_t ITM_SendChar (uint32_t ch)
 {
   if ((((ITM_Type *) (0xE0000000UL) )->TCR & (1UL << 0)) &&
@@ -3556,7 +3556,7 @@ static inline uint32_t ITM_SendChar (uint32_t ch)
   }
   return (ch);
 }
-# 2168 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 2168 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline int32_t ITM_ReceiveChar (void) {
   int32_t ch = -1;
 
@@ -3567,7 +3567,7 @@ static inline int32_t ITM_ReceiveChar (void) {
 
   return (ch);
 }
-# 2187 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
+# 2187 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h"
 static inline int32_t ITM_CheckChar (void) {
 
   if (ITM_RxBuffer == 0x5AA55AA5) {
@@ -3576,12 +3576,12 @@ static inline int32_t ITM_CheckChar (void) {
     return (1);
   }
 }
-# 318 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 318 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h"
 #define SYSTEM_SAMV71_H_INCLUDED 
-# 43 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h"
+# 43 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/system_samv71.h"
 extern uint32_t SystemCoreClock;
 
 
@@ -3603,12 +3603,12 @@ void system_init_flash(uint32_t dw_clk);
 
 void sysclk_enable_usb(void);
 void sysclk_disable_usb(void);
-# 320 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 330 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h"
+# 320 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 330 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h"
 #define _SAMV71_ACC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_acc.h"
 typedef struct {
   volatile uint32_t ACC_CR;
   volatile uint32_t ACC_MR;
@@ -3692,11 +3692,11 @@ typedef struct {
 #define ACC_WPMR_WPKEY_PASSWD (0x414343u << 8)
 
 #define ACC_WPSR_WPVS (0x1u << 0)
-# 331 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h"
+# 331 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h"
 #define _SAMV71_AES_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_aes.h"
 typedef struct {
   volatile uint32_t AES_CR;
   volatile uint32_t AES_MR;
@@ -3824,11 +3824,11 @@ typedef struct {
 #define AES_GCMHR_H_Pos 0
 #define AES_GCMHR_H_Msk (0xffffffffu << AES_GCMHR_H_Pos)
 #define AES_GCMHR_H(value) ((AES_GCMHR_H_Msk & ((value) << AES_GCMHR_H_Pos)))
-# 332 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h"
+# 332 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h"
 #define _SAMV71_AFEC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_afec.h"
 typedef struct {
   volatile uint32_t AFEC_CR;
   volatile uint32_t AFEC_MR;
@@ -4267,11 +4267,11 @@ typedef struct {
 #define AFEC_WPSR_WPVS (0x1u << 0)
 #define AFEC_WPSR_WPVSRC_Pos 8
 #define AFEC_WPSR_WPVSRC_Msk (0xffffu << AFEC_WPSR_WPVSRC_Pos)
-# 333 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h"
+# 333 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h"
 #define _SAMV71_CHIPID_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_chipid.h"
 typedef struct {
   volatile const uint32_t CHIPID_CIDR;
   volatile const uint32_t CHIPID_EXID;
@@ -4350,11 +4350,11 @@ typedef struct {
 
 #define CHIPID_EXID_EXID_Pos 0
 #define CHIPID_EXID_EXID_Msk (0xffffffffu << CHIPID_EXID_EXID_Pos)
-# 334 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h"
+# 334 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h"
 #define _SAMV71_DACC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_dacc.h"
 typedef struct {
   volatile uint32_t DACC_CR;
   volatile uint32_t DACC_MR;
@@ -4512,11 +4512,11 @@ typedef struct {
 #define DACC_WPSR_WPVS (0x1u << 0)
 #define DACC_WPSR_WPVSRC_Pos 8
 #define DACC_WPSR_WPVSRC_Msk (0xffu << DACC_WPSR_WPVSRC_Pos)
-# 335 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h"
+# 335 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h"
 #define _SAMV71_EFC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_efc.h"
 typedef struct {
   volatile uint32_t EEFC_FMR;
   volatile uint32_t EEFC_FCR;
@@ -4590,11 +4590,11 @@ typedef struct {
 #define EEFC_WPMR_WPKEY_Msk (0xffffffu << EEFC_WPMR_WPKEY_Pos)
 #define EEFC_WPMR_WPKEY(value) ((EEFC_WPMR_WPKEY_Msk & ((value) << EEFC_WPMR_WPKEY_Pos)))
 #define EEFC_WPMR_WPKEY_PASSWD (0x454643u << 8)
-# 336 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h"
+# 336 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h"
 #define _SAMV71_GMAC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gmac.h"
 typedef struct {
   volatile uint32_t GMAC_SAB;
   volatile uint32_t GMAC_SAT;
@@ -5382,11 +5382,11 @@ typedef struct {
 #define GMAC_ST2COM1_OFFSET_TYPE_Pos 7
 #define GMAC_ST2COM1_OFFSET_TYPE_Msk (0x3u << GMAC_ST2COM1_OFFSET_TYPE_Pos)
 #define GMAC_ST2COM1_OFFSET_TYPE(value) ((GMAC_ST2COM1_OFFSET_TYPE_Msk & ((value) << GMAC_ST2COM1_OFFSET_TYPE_Pos)))
-# 337 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h"
+# 337 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h"
 #define _SAMV71_GPBR_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_gpbr.h"
 typedef struct {
   volatile uint32_t SYS_GPBR[8];
 } Gpbr;
@@ -5395,11 +5395,11 @@ typedef struct {
 #define SYS_GPBR_GPBR_VALUE_Pos 0
 #define SYS_GPBR_GPBR_VALUE_Msk (0xffffffffu << SYS_GPBR_GPBR_VALUE_Pos)
 #define SYS_GPBR_GPBR_VALUE(value) ((SYS_GPBR_GPBR_VALUE_Msk & ((value) << SYS_GPBR_GPBR_VALUE_Pos)))
-# 338 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h"
+# 338 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h"
 #define _SAMV71_HSMCI_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_hsmci.h"
 typedef struct {
   volatile uint32_t HSMCI_CR;
   volatile uint32_t HSMCI_MR;
@@ -5690,11 +5690,11 @@ typedef struct {
 #define HSMCI_FIFO_DATA_Pos 0
 #define HSMCI_FIFO_DATA_Msk (0xffffffffu << HSMCI_FIFO_DATA_Pos)
 #define HSMCI_FIFO_DATA(value) ((HSMCI_FIFO_DATA_Msk & ((value) << HSMCI_FIFO_DATA_Pos)))
-# 339 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h"
+# 339 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h"
 #define _SAMV71_ICM_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_icm.h"
 typedef struct {
   volatile uint32_t ICM_CFG;
   volatile uint32_t ICM_CTRL;
@@ -5842,11 +5842,11 @@ typedef struct {
 #define ICM_UIHVAL_VAL_Pos 0
 #define ICM_UIHVAL_VAL_Msk (0xffffffffu << ICM_UIHVAL_VAL_Pos)
 #define ICM_UIHVAL_VAL(value) ((ICM_UIHVAL_VAL_Msk & ((value) << ICM_UIHVAL_VAL_Pos)))
-# 340 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h"
+# 340 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h"
 #define _SAMV71_ISI_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_isi.h"
 typedef struct {
   volatile uint32_t ISI_CFG1;
   volatile uint32_t ISI_CFG2;
@@ -6082,11 +6082,11 @@ typedef struct {
 #define ISI_WPSR_WPVS (0x1u << 0)
 #define ISI_WPSR_WPVSRC_Pos 8
 #define ISI_WPSR_WPVSRC_Msk (0xffffu << ISI_WPSR_WPVSRC_Pos)
-# 341 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h"
+# 341 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h"
 #define _SAMV71_MATRIX_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_matrix.h"
 typedef struct {
   volatile uint32_t MATRIX_PRAS;
   volatile uint32_t MATRIX_PRBS;
@@ -6216,11 +6216,11 @@ typedef struct {
 #define MATRIX_WPSR_WPVS (0x1u << 0)
 #define MATRIX_WPSR_WPVSRC_Pos 8
 #define MATRIX_WPSR_WPVSRC_Msk (0xffffu << MATRIX_WPSR_WPVSRC_Pos)
-# 342 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h"
+# 342 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h"
 #define _SAMV71_MCAN_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mcan.h"
 typedef struct {
   volatile const uint32_t Reserved1[2];
   volatile uint32_t MCAN_CUST;
@@ -7021,11 +7021,11 @@ typedef struct {
 #define MCAN_TXEFA_EFAI_Pos 0
 #define MCAN_TXEFA_EFAI_Msk (0x1fu << MCAN_TXEFA_EFAI_Pos)
 #define MCAN_TXEFA_EFAI(value) ((MCAN_TXEFA_EFAI_Msk & ((value) << MCAN_TXEFA_EFAI_Pos)))
-# 343 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h"
+# 343 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h"
 #define _SAMV71_MLB_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_mlb.h"
 typedef struct {
   volatile uint32_t MLB_MLBC0;
   volatile const uint32_t Reserved1[2];
@@ -7173,11 +7173,11 @@ typedef struct {
 #define MLB_ACMR_CHM_Pos 0
 #define MLB_ACMR_CHM_Msk (0xffffffffu << MLB_ACMR_CHM_Pos)
 #define MLB_ACMR_CHM(value) ((MLB_ACMR_CHM_Msk & ((value) << MLB_ACMR_CHM_Pos)))
-# 344 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h"
+# 344 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h"
 #define _SAMV71_PIO_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pio.h"
 typedef struct {
   volatile uint32_t PIO_PER;
   volatile uint32_t PIO_PDR;
@@ -8918,11 +8918,11 @@ typedef struct {
 
 #define PIO_PCRHR_RDATA_Pos 0
 #define PIO_PCRHR_RDATA_Msk (0xffffffffu << PIO_PCRHR_RDATA_Pos)
-# 345 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h"
+# 345 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h"
 #define _SAMV71_PMC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pmc.h"
 typedef struct {
   volatile uint32_t PMC_SCER;
   volatile uint32_t PMC_SCDR;
@@ -9599,11 +9599,11 @@ typedef struct {
 #define PMC_SLPWK_ASR1_PID60 (0x1u << 28)
 
 #define PMC_SLPWK_AIPR_AIP (0x1u << 0)
-# 346 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h"
+# 346 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h"
 #define _SAMV71_PWM_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_pwm.h"
 typedef struct {
   volatile uint32_t PWM_CMR;
   volatile uint32_t PWM_CDTY;
@@ -10259,11 +10259,11 @@ typedef struct {
 #define PWM_LEBR4_PWMLREN (0x1u << 17)
 #define PWM_LEBR4_PWMHFEN (0x1u << 18)
 #define PWM_LEBR4_PWMHREN (0x1u << 19)
-# 347 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h"
+# 347 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h"
 #define _SAMV71_QSPI_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_qspi.h"
 typedef struct {
   volatile uint32_t QSPI_CR;
   volatile uint32_t QSPI_MR;
@@ -10442,11 +10442,11 @@ typedef struct {
 #define QSPI_WPSR_WPVS (0x1u << 0)
 #define QSPI_WPSR_WPVSRC_Pos 8
 #define QSPI_WPSR_WPVSRC_Msk (0xffu << QSPI_WPSR_WPVSRC_Pos)
-# 348 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h"
+# 348 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h"
 #define _SAMV71_RSTC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rstc.h"
 typedef struct {
   volatile uint32_t RSTC_CR;
   volatile const uint32_t RSTC_SR;
@@ -10481,11 +10481,11 @@ typedef struct {
 #define RSTC_MR_KEY_Msk (0xffu << RSTC_MR_KEY_Pos)
 #define RSTC_MR_KEY(value) ((RSTC_MR_KEY_Msk & ((value) << RSTC_MR_KEY_Pos)))
 #define RSTC_MR_KEY_PASSWD (0xA5u << 24)
-# 349 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h"
+# 349 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h"
 #define _SAMV71_RSWDT_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rswdt.h"
 typedef struct {
   volatile uint32_t RSWDT_CR;
   volatile uint32_t RSWDT_MR;
@@ -10513,11 +10513,11 @@ typedef struct {
 #define RSWDT_MR_WDIDLEHLT (0x1u << 29)
 
 #define RSWDT_SR_WDUNF (0x1u << 0)
-# 350 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h"
+# 350 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h"
 #define _SAMV71_RTC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtc.h"
 typedef struct {
   volatile uint32_t RTC_CR;
   volatile uint32_t RTC_MR;
@@ -10699,11 +10699,11 @@ typedef struct {
 #define RTC_VER_NVCAL (0x1u << 1)
 #define RTC_VER_NVTIMALR (0x1u << 2)
 #define RTC_VER_NVCALALR (0x1u << 3)
-# 351 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h"
+# 351 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h"
 #define _SAMV71_RTT_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_rtt.h"
 typedef struct {
   volatile uint32_t RTT_MR;
   volatile uint32_t RTT_AR;
@@ -10730,11 +10730,11 @@ typedef struct {
 
 #define RTT_SR_ALMS (0x1u << 0)
 #define RTT_SR_RTTINC (0x1u << 1)
-# 352 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h"
+# 352 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h"
 #define _SAMV71_SDRAMC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_sdramc.h"
 typedef struct {
   volatile uint32_t SDRAMC_MR;
   volatile uint32_t SDRAMC_TR;
@@ -10863,11 +10863,11 @@ typedef struct {
 #define SDRAMC_OCMS_KEY2_KEY2_Pos 0
 #define SDRAMC_OCMS_KEY2_KEY2_Msk (0xffffffffu << SDRAMC_OCMS_KEY2_KEY2_Pos)
 #define SDRAMC_OCMS_KEY2_KEY2(value) ((SDRAMC_OCMS_KEY2_KEY2_Msk & ((value) << SDRAMC_OCMS_KEY2_KEY2_Pos)))
-# 353 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h"
+# 353 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h"
 #define _SAMV71_SMC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_smc.h"
 typedef struct {
   volatile uint32_t SMC_SETUP;
   volatile uint32_t SMC_PULSE;
@@ -10967,11 +10967,11 @@ typedef struct {
 #define SMC_WPSR_WPVS (0x1u << 0)
 #define SMC_WPSR_WPVSRC_Pos 8
 #define SMC_WPSR_WPVSRC_Msk (0xffffu << SMC_WPSR_WPVSRC_Pos)
-# 354 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h"
+# 354 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h"
 #define _SAMV71_SPI_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_spi.h"
 typedef struct {
   volatile uint32_t SPI_CR;
   volatile uint32_t SPI_MR;
@@ -11088,11 +11088,11 @@ typedef struct {
 #define SPI_WPSR_WPVS (0x1u << 0)
 #define SPI_WPSR_WPVSRC_Pos 8
 #define SPI_WPSR_WPVSRC_Msk (0xffu << SPI_WPSR_WPVSRC_Pos)
-# 355 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h"
+# 355 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h"
 #define _SAMV71_SSC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_ssc.h"
 typedef struct {
   volatile uint32_t SSC_CR;
   volatile uint32_t SSC_CMR;
@@ -11328,11 +11328,11 @@ typedef struct {
 #define SSC_WPSR_WPVS (0x1u << 0)
 #define SSC_WPSR_WPVSRC_Pos 8
 #define SSC_WPSR_WPVSRC_Msk (0xffffu << SSC_WPSR_WPVSRC_Pos)
-# 356 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h"
+# 356 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h"
 #define _SAMV71_SUPC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_supc.h"
 typedef struct {
   volatile uint32_t SUPC_CR;
   volatile uint32_t SUPC_SMMR;
@@ -11583,11 +11583,11 @@ typedef struct {
 #define SUPC_SR_WKUPIS13 (0x1u << 29)
 #define SUPC_SR_WKUPIS13_DIS (0x0u << 29)
 #define SUPC_SR_WKUPIS13_EN (0x1u << 29)
-# 357 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h"
+# 357 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h"
 #define _SAMV71_TC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_tc.h"
 typedef struct {
   volatile uint32_t TC_CCR;
   volatile uint32_t TC_CMR;
@@ -11889,11 +11889,11 @@ typedef struct {
 #define TC_WPMR_WPKEY_Msk (0xffffffu << TC_WPMR_WPKEY_Pos)
 #define TC_WPMR_WPKEY(value) ((TC_WPMR_WPKEY_Msk & ((value) << TC_WPMR_WPKEY_Pos)))
 #define TC_WPMR_WPKEY_PASSWD (0x54494Du << 8)
-# 358 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h"
+# 358 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h"
 #define _SAMV71_TRNG_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_trng.h"
 typedef struct {
   volatile uint32_t TRNG_CR;
   volatile const uint32_t Reserved1[3];
@@ -11922,11 +11922,11 @@ typedef struct {
 
 #define TRNG_ODATA_ODATA_Pos 0
 #define TRNG_ODATA_ODATA_Msk (0xffffffffu << TRNG_ODATA_ODATA_Pos)
-# 359 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h"
+# 359 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h"
 #define _SAMV71_TWIHS_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_twihs.h"
 typedef struct {
   volatile uint32_t TWIHS_CR;
   volatile uint32_t TWIHS_MMR;
@@ -12132,11 +12132,11 @@ typedef struct {
 #define TWIHS_WPSR_WPVS (0x1u << 0)
 #define TWIHS_WPSR_WPVSRC_Pos 8
 #define TWIHS_WPSR_WPVSRC_Msk (0xffffffu << TWIHS_WPSR_WPVSRC_Pos)
-# 360 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h"
+# 360 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h"
 #define _SAMV71_UART_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_uart.h"
 typedef struct {
   volatile uint32_t UART_CR;
   volatile uint32_t UART_MR;
@@ -12243,11 +12243,11 @@ typedef struct {
 #define UART_WPMR_WPKEY_Msk (0xffffffu << UART_WPMR_WPKEY_Pos)
 #define UART_WPMR_WPKEY(value) ((UART_WPMR_WPKEY_Msk & ((value) << UART_WPMR_WPKEY_Pos)))
 #define UART_WPMR_WPKEY_PASSWD (0x554152u << 8)
-# 361 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h"
+# 361 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h"
 #define _SAMV71_USART_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usart.h"
 typedef struct {
   volatile uint32_t US_CR;
   volatile uint32_t US_MR;
@@ -12630,11 +12630,11 @@ typedef struct {
 #define US_WPSR_WPVS (0x1u << 0)
 #define US_WPSR_WPVSRC_Pos 8
 #define US_WPSR_WPVSRC_Msk (0xffffu << US_WPSR_WPVSRC_Pos)
-# 362 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h"
+# 362 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h"
 #define _SAMV71_USBHS_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_usbhs.h"
 typedef struct {
   volatile uint32_t USBHS_DEVDMANXTDSC;
   volatile uint32_t USBHS_DEVDMAADDRESS;
@@ -13550,11 +13550,11 @@ typedef struct {
 #define USBHS_FSM_DRDSTATE_B_WAIT_ACON (0xDu << 0)
 #define USBHS_FSM_DRDSTATE_B_HOST (0xEu << 0)
 #define USBHS_FSM_DRDSTATE_B_SRP_INIT (0xFu << 0)
-# 363 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h"
+# 363 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h"
 #define _SAMV71_UTMI_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_utmi.h"
 typedef struct {
   volatile const uint32_t Reserved1[4];
   volatile uint32_t UTMI_OHCIICR;
@@ -13573,11 +13573,11 @@ typedef struct {
 #define UTMI_CKTRIM_FREQ(value) ((UTMI_CKTRIM_FREQ_Msk & ((value) << UTMI_CKTRIM_FREQ_Pos)))
 #define UTMI_CKTRIM_FREQ_XTAL12 (0x0u << 0)
 #define UTMI_CKTRIM_FREQ_XTAL16 (0x1u << 0)
-# 364 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h"
+# 364 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h"
 #define _SAMV71_WDT_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_wdt.h"
 typedef struct {
   volatile uint32_t WDT_CR;
   volatile uint32_t WDT_MR;
@@ -13605,11 +13605,11 @@ typedef struct {
 
 #define WDT_SR_WDUNF (0x1u << 0)
 #define WDT_SR_WDERR (0x1u << 1)
-# 365 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h"
+# 365 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h"
 #define _SAMV71_XDMAC_COMPONENT_ 
-# 41 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h"
+# 41 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/component/component_xdmac.h"
 typedef struct {
   volatile uint32_t XDMAC_CIE;
   volatile uint32_t XDMAC_CID;
@@ -14184,12 +14184,12 @@ typedef struct {
 #define XDMAC_CDUS_DUBS_Pos 0
 #define XDMAC_CDUS_DUBS_Msk (0xffffffu << XDMAC_CDUS_DUBS_Pos)
 #define XDMAC_CDUS_DUBS(value) ((XDMAC_CDUS_DUBS_Msk & ((value) << XDMAC_CDUS_DUBS_Pos)))
-# 366 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 374 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h"
+# 366 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 374 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h"
 #define _SAMV71_HSMCI_INSTANCE_ 
-# 56 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h"
+# 56 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_hsmci.h"
 #define REG_HSMCI_CR (*(__O uint32_t*)0x40000000U)
 #define REG_HSMCI_MR (*(__IO uint32_t*)0x40000004U)
 #define REG_HSMCI_DTOR (*(__IO uint32_t*)0x40000008U)
@@ -14210,11 +14210,11 @@ typedef struct {
 #define REG_HSMCI_WPMR (*(__IO uint32_t*)0x400000E4U)
 #define REG_HSMCI_WPSR (*(__I uint32_t*)0x400000E8U)
 #define REG_HSMCI_FIFO (*(__IO uint32_t*)0x40000200U)
-# 375 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h"
+# 375 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h"
 #define _SAMV71_SSC_INSTANCE_ 
-# 54 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h"
+# 54 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_ssc.h"
 #define REG_SSC_CR (*(__O uint32_t*)0x40004000U)
 #define REG_SSC_CMR (*(__IO uint32_t*)0x40004004U)
 #define REG_SSC_RCMR (*(__IO uint32_t*)0x40004010U)
@@ -14233,11 +14233,11 @@ typedef struct {
 #define REG_SSC_IMR (*(__I uint32_t*)0x4000404CU)
 #define REG_SSC_WPMR (*(__IO uint32_t*)0x400040E4U)
 #define REG_SSC_WPSR (*(__I uint32_t*)0x400040E8U)
-# 376 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h"
+# 376 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h"
 #define _SAMV71_SPI0_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi0.h"
 #define REG_SPI0_CR (*(__O uint32_t*)0x40008000U)
 #define REG_SPI0_MR (*(__IO uint32_t*)0x40008004U)
 #define REG_SPI0_RDR (*(__I uint32_t*)0x40008008U)
@@ -14249,11 +14249,11 @@ typedef struct {
 #define REG_SPI0_CSR (*(__IO uint32_t*)0x40008030U)
 #define REG_SPI0_WPMR (*(__IO uint32_t*)0x400080E4U)
 #define REG_SPI0_WPSR (*(__I uint32_t*)0x400080E8U)
-# 377 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h"
+# 377 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h"
 #define _SAMV71_TC0_INSTANCE_ 
-# 83 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h"
+# 83 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc0.h"
 #define REG_TC0_CCR0 (*(__O uint32_t*)0x4000C000U)
 #define REG_TC0_CMR0 (*(__IO uint32_t*)0x4000C004U)
 #define REG_TC0_SMMR0 (*(__IO uint32_t*)0x4000C008U)
@@ -14301,11 +14301,11 @@ typedef struct {
 #define REG_TC0_QISR (*(__I uint32_t*)0x4000C0D4U)
 #define REG_TC0_FMR (*(__IO uint32_t*)0x4000C0D8U)
 #define REG_TC0_WPMR (*(__IO uint32_t*)0x4000C0E4U)
-# 378 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h"
+# 378 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h"
 #define _SAMV71_TC1_INSTANCE_ 
-# 83 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h"
+# 83 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc1.h"
 #define REG_TC1_CCR0 (*(__O uint32_t*)0x40010000U)
 #define REG_TC1_CMR0 (*(__IO uint32_t*)0x40010004U)
 #define REG_TC1_SMMR0 (*(__IO uint32_t*)0x40010008U)
@@ -14353,11 +14353,11 @@ typedef struct {
 #define REG_TC1_QISR (*(__I uint32_t*)0x400100D4U)
 #define REG_TC1_FMR (*(__IO uint32_t*)0x400100D8U)
 #define REG_TC1_WPMR (*(__IO uint32_t*)0x400100E4U)
-# 379 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h"
+# 379 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h"
 #define _SAMV71_TC2_INSTANCE_ 
-# 83 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h"
+# 83 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc2.h"
 #define REG_TC2_CCR0 (*(__O uint32_t*)0x40014000U)
 #define REG_TC2_CMR0 (*(__IO uint32_t*)0x40014004U)
 #define REG_TC2_SMMR0 (*(__IO uint32_t*)0x40014008U)
@@ -14405,11 +14405,11 @@ typedef struct {
 #define REG_TC2_QISR (*(__I uint32_t*)0x400140D4U)
 #define REG_TC2_FMR (*(__IO uint32_t*)0x400140D8U)
 #define REG_TC2_WPMR (*(__IO uint32_t*)0x400140E4U)
-# 380 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h"
+# 380 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h"
 #define _SAMV71_TWIHS0_INSTANCE_ 
-# 52 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h"
+# 52 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs0.h"
 #define REG_TWIHS0_CR (*(__O uint32_t*)0x40018000U)
 #define REG_TWIHS0_MMR (*(__IO uint32_t*)0x40018004U)
 #define REG_TWIHS0_SMR (*(__IO uint32_t*)0x40018008U)
@@ -14426,11 +14426,11 @@ typedef struct {
 #define REG_TWIHS0_SWMR (*(__IO uint32_t*)0x4001804CU)
 #define REG_TWIHS0_WPMR (*(__IO uint32_t*)0x400180E4U)
 #define REG_TWIHS0_WPSR (*(__I uint32_t*)0x400180E8U)
-# 381 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h"
+# 381 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h"
 #define _SAMV71_TWIHS1_INSTANCE_ 
-# 52 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h"
+# 52 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs1.h"
 #define REG_TWIHS1_CR (*(__O uint32_t*)0x4001C000U)
 #define REG_TWIHS1_MMR (*(__IO uint32_t*)0x4001C004U)
 #define REG_TWIHS1_SMR (*(__IO uint32_t*)0x4001C008U)
@@ -14447,11 +14447,11 @@ typedef struct {
 #define REG_TWIHS1_SWMR (*(__IO uint32_t*)0x4001C04CU)
 #define REG_TWIHS1_WPMR (*(__IO uint32_t*)0x4001C0E4U)
 #define REG_TWIHS1_WPSR (*(__I uint32_t*)0x4001C0E8U)
-# 382 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h"
+# 382 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h"
 #define _SAMV71_PWM0_INSTANCE_ 
-# 147 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h"
+# 147 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm0.h"
 #define REG_PWM0_CLK (*(__IO uint32_t*)0x40020000U)
 #define REG_PWM0_ENA (*(__O uint32_t*)0x40020004U)
 #define REG_PWM0_DIS (*(__O uint32_t*)0x40020008U)
@@ -14563,11 +14563,11 @@ typedef struct {
 #define REG_PWM0_LEBR3 (*(__IO uint32_t*)0x40020470U)
 #define REG_PWM0_ETRG4 (*(__IO uint32_t*)0x4002048CU)
 #define REG_PWM0_LEBR4 (*(__IO uint32_t*)0x40020490U)
-# 383 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h"
+# 383 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h"
 #define _SAMV71_USART0_INSTANCE_ 
-# 64 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h"
+# 64 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart0.h"
 #define REG_USART0_CR (*(__O uint32_t*)0x40024000U)
 #define REG_USART0_MR (*(__IO uint32_t*)0x40024004U)
 #define REG_USART0_IER (*(__O uint32_t*)0x40024008U)
@@ -14596,11 +14596,11 @@ typedef struct {
 #define REG_USART0_ICDIFF (*(__IO uint32_t*)0x40024088U)
 #define REG_USART0_WPMR (*(__IO uint32_t*)0x400240E4U)
 #define REG_USART0_WPSR (*(__I uint32_t*)0x400240E8U)
-# 384 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h"
+# 384 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h"
 #define _SAMV71_USART1_INSTANCE_ 
-# 64 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h"
+# 64 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart1.h"
 #define REG_USART1_CR (*(__O uint32_t*)0x40028000U)
 #define REG_USART1_MR (*(__IO uint32_t*)0x40028004U)
 #define REG_USART1_IER (*(__O uint32_t*)0x40028008U)
@@ -14629,11 +14629,11 @@ typedef struct {
 #define REG_USART1_ICDIFF (*(__IO uint32_t*)0x40028088U)
 #define REG_USART1_WPMR (*(__IO uint32_t*)0x400280E4U)
 #define REG_USART1_WPSR (*(__I uint32_t*)0x400280E8U)
-# 385 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h"
+# 385 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h"
 #define _SAMV71_USART2_INSTANCE_ 
-# 64 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h"
+# 64 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usart2.h"
 #define REG_USART2_CR (*(__O uint32_t*)0x4002C000U)
 #define REG_USART2_MR (*(__IO uint32_t*)0x4002C004U)
 #define REG_USART2_IER (*(__O uint32_t*)0x4002C008U)
@@ -14662,11 +14662,11 @@ typedef struct {
 #define REG_USART2_ICDIFF (*(__IO uint32_t*)0x4002C088U)
 #define REG_USART2_WPMR (*(__IO uint32_t*)0x4002C0E4U)
 #define REG_USART2_WPSR (*(__I uint32_t*)0x4002C0E8U)
-# 386 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h"
+# 386 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h"
 #define _SAMV71_MCAN0_INSTANCE_ 
-# 80 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h"
+# 80 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan0.h"
 #define REG_MCAN0_CUST (*(__IO uint32_t*)0x40030008U)
 #define REG_MCAN0_FBTP (*(__IO uint32_t*)0x4003000CU)
 #define REG_MCAN0_TEST (*(__IO uint32_t*)0x40030010U)
@@ -14711,11 +14711,11 @@ typedef struct {
 #define REG_MCAN0_TXEFC (*(__IO uint32_t*)0x400300F0U)
 #define REG_MCAN0_TXEFS (*(__I uint32_t*)0x400300F4U)
 #define REG_MCAN0_TXEFA (*(__IO uint32_t*)0x400300F8U)
-# 387 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h"
+# 387 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h"
 #define _SAMV71_MCAN1_INSTANCE_ 
-# 80 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h"
+# 80 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mcan1.h"
 #define REG_MCAN1_CUST (*(__IO uint32_t*)0x40034008U)
 #define REG_MCAN1_FBTP (*(__IO uint32_t*)0x4003400CU)
 #define REG_MCAN1_TEST (*(__IO uint32_t*)0x40034010U)
@@ -14760,11 +14760,11 @@ typedef struct {
 #define REG_MCAN1_TXEFC (*(__IO uint32_t*)0x400340F0U)
 #define REG_MCAN1_TXEFS (*(__I uint32_t*)0x400340F4U)
 #define REG_MCAN1_TXEFA (*(__IO uint32_t*)0x400340F8U)
-# 388 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h"
+# 388 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h"
 #define _SAMV71_USBHS_INSTANCE_ 
-# 137 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h"
+# 137 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_usbhs.h"
 #define REG_USBHS_DEVCTRL (*(__IO uint32_t*)0x40038000U)
 #define REG_USBHS_DEVISR (*(__I uint32_t*)0x40038004U)
 #define REG_USBHS_DEVICR (*(__O uint32_t*)0x40038008U)
@@ -14866,11 +14866,11 @@ typedef struct {
 #define REG_USBHS_TSTA2 (*(__IO uint32_t*)0x40038814U)
 #define REG_USBHS_VERSION (*(__I uint32_t*)0x40038818U)
 #define REG_USBHS_FSM (*(__I uint32_t*)0x4003882CU)
-# 389 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h"
+# 389 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h"
 #define _SAMV71_AFEC0_INSTANCE_ 
-# 65 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h"
+# 65 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec0.h"
 #define REG_AFEC0_CR (*(__O uint32_t*)0x4003C000U)
 #define REG_AFEC0_MR (*(__IO uint32_t*)0x4003C004U)
 #define REG_AFEC0_EMR (*(__IO uint32_t*)0x4003C008U)
@@ -14900,11 +14900,11 @@ typedef struct {
 #define REG_AFEC0_CECR (*(__IO uint32_t*)0x4003C0D8U)
 #define REG_AFEC0_WPMR (*(__IO uint32_t*)0x4003C0E4U)
 #define REG_AFEC0_WPSR (*(__I uint32_t*)0x4003C0E8U)
-# 390 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h"
+# 390 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h"
 #define _SAMV71_DACC_INSTANCE_ 
-# 50 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h"
+# 50 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_dacc.h"
 #define REG_DACC_CR (*(__O uint32_t*)0x40040000U)
 #define REG_DACC_MR (*(__IO uint32_t*)0x40040004U)
 #define REG_DACC_TRIGR (*(__IO uint32_t*)0x40040008U)
@@ -14919,11 +14919,11 @@ typedef struct {
 #define REG_DACC_ACR (*(__IO uint32_t*)0x40040094U)
 #define REG_DACC_WPMR (*(__IO uint32_t*)0x400400E4U)
 #define REG_DACC_WPSR (*(__I uint32_t*)0x400400E8U)
-# 391 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h"
+# 391 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h"
 #define _SAMV71_ACC_INSTANCE_ 
-# 45 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h"
+# 45 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_acc.h"
 #define REG_ACC_CR (*(__O uint32_t*)0x40044000U)
 #define REG_ACC_MR (*(__IO uint32_t*)0x40044004U)
 #define REG_ACC_IER (*(__O uint32_t*)0x40044024U)
@@ -14933,11 +14933,11 @@ typedef struct {
 #define REG_ACC_ACR (*(__IO uint32_t*)0x40044094U)
 #define REG_ACC_WPMR (*(__IO uint32_t*)0x400440E4U)
 #define REG_ACC_WPSR (*(__I uint32_t*)0x400440E8U)
-# 392 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h"
+# 392 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h"
 #define _SAMV71_ICM_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_icm.h"
 #define REG_ICM_CFG (*(__IO uint32_t*)0x40048000U)
 #define REG_ICM_CTRL (*(__O uint32_t*)0x40048004U)
 #define REG_ICM_SR (*(__O uint32_t*)0x40048008U)
@@ -14949,11 +14949,11 @@ typedef struct {
 #define REG_ICM_DSCR (*(__IO uint32_t*)0x40048030U)
 #define REG_ICM_HASH (*(__IO uint32_t*)0x40048034U)
 #define REG_ICM_UIHVAL (*(__O uint32_t*)0x40048038U)
-# 393 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h"
+# 393 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h"
 #define _SAMV71_ISI_INSTANCE_ 
-# 61 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h"
+# 61 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_isi.h"
 #define REG_ISI_CFG1 (*(__IO uint32_t*)0x4004C000U)
 #define REG_ISI_CFG2 (*(__IO uint32_t*)0x4004C004U)
 #define REG_ISI_PSIZE (*(__IO uint32_t*)0x4004C008U)
@@ -14979,11 +14979,11 @@ typedef struct {
 #define REG_ISI_DMA_C_DSCR (*(__IO uint32_t*)0x4004C058U)
 #define REG_ISI_WPMR (*(__IO uint32_t*)0x4004C0E4U)
 #define REG_ISI_WPSR (*(__I uint32_t*)0x4004C0E8U)
-# 394 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h"
+# 394 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h"
 #define _SAMV71_GMAC_INSTANCE_ 
-# 202 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h"
+# 202 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gmac.h"
 #define REG_GMAC_NCR (*(__IO uint32_t*)0x40050000U)
 #define REG_GMAC_NCFGR (*(__IO uint32_t*)0x40050004U)
 #define REG_GMAC_NSR (*(__I uint32_t*)0x40050008U)
@@ -15150,11 +15150,11 @@ typedef struct {
 #define REG_GMAC_ST2CW122 (*(__IO uint32_t*)0x400507B4U)
 #define REG_GMAC_ST2CW023 (*(__IO uint32_t*)0x400507B8U)
 #define REG_GMAC_ST2CW123 (*(__IO uint32_t*)0x400507BCU)
-# 395 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h"
+# 395 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h"
 #define _SAMV71_TC3_INSTANCE_ 
-# 83 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h"
+# 83 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_tc3.h"
 #define REG_TC3_CCR0 (*(__O uint32_t*)0x40054000U)
 #define REG_TC3_CMR0 (*(__IO uint32_t*)0x40054004U)
 #define REG_TC3_SMMR0 (*(__IO uint32_t*)0x40054008U)
@@ -15202,11 +15202,11 @@ typedef struct {
 #define REG_TC3_QISR (*(__I uint32_t*)0x400540D4U)
 #define REG_TC3_FMR (*(__IO uint32_t*)0x400540D8U)
 #define REG_TC3_WPMR (*(__IO uint32_t*)0x400540E4U)
-# 396 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h"
+# 396 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h"
 #define _SAMV71_SPI1_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_spi1.h"
 #define REG_SPI1_CR (*(__O uint32_t*)0x40058000U)
 #define REG_SPI1_MR (*(__IO uint32_t*)0x40058004U)
 #define REG_SPI1_RDR (*(__I uint32_t*)0x40058008U)
@@ -15218,11 +15218,11 @@ typedef struct {
 #define REG_SPI1_CSR (*(__IO uint32_t*)0x40058030U)
 #define REG_SPI1_WPMR (*(__IO uint32_t*)0x400580E4U)
 #define REG_SPI1_WPSR (*(__I uint32_t*)0x400580E8U)
-# 397 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h"
+# 397 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h"
 #define _SAMV71_PWM1_INSTANCE_ 
-# 147 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h"
+# 147 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pwm1.h"
 #define REG_PWM1_CLK (*(__IO uint32_t*)0x4005C000U)
 #define REG_PWM1_ENA (*(__O uint32_t*)0x4005C004U)
 #define REG_PWM1_DIS (*(__O uint32_t*)0x4005C008U)
@@ -15334,11 +15334,11 @@ typedef struct {
 #define REG_PWM1_LEBR3 (*(__IO uint32_t*)0x4005C470U)
 #define REG_PWM1_ETRG4 (*(__IO uint32_t*)0x4005C48CU)
 #define REG_PWM1_LEBR4 (*(__IO uint32_t*)0x4005C490U)
-# 398 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h"
+# 398 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h"
 #define _SAMV71_TWIHS2_INSTANCE_ 
-# 52 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h"
+# 52 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_twihs2.h"
 #define REG_TWIHS2_CR (*(__O uint32_t*)0x40060000U)
 #define REG_TWIHS2_MMR (*(__IO uint32_t*)0x40060004U)
 #define REG_TWIHS2_SMR (*(__IO uint32_t*)0x40060008U)
@@ -15355,11 +15355,11 @@ typedef struct {
 #define REG_TWIHS2_SWMR (*(__IO uint32_t*)0x4006004CU)
 #define REG_TWIHS2_WPMR (*(__IO uint32_t*)0x400600E4U)
 #define REG_TWIHS2_WPSR (*(__I uint32_t*)0x400600E8U)
-# 399 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h"
+# 399 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h"
 #define _SAMV71_AFEC1_INSTANCE_ 
-# 65 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h"
+# 65 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_afec1.h"
 #define REG_AFEC1_CR (*(__O uint32_t*)0x40064000U)
 #define REG_AFEC1_MR (*(__IO uint32_t*)0x40064004U)
 #define REG_AFEC1_EMR (*(__IO uint32_t*)0x40064008U)
@@ -15389,11 +15389,11 @@ typedef struct {
 #define REG_AFEC1_CECR (*(__IO uint32_t*)0x400640D8U)
 #define REG_AFEC1_WPMR (*(__IO uint32_t*)0x400640E4U)
 #define REG_AFEC1_WPSR (*(__I uint32_t*)0x400640E8U)
-# 400 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h"
+# 400 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h"
 #define _SAMV71_MLB_INSTANCE_ 
-# 54 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h"
+# 54 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_mlb.h"
 #define REG_MLB_MLBC0 (*(__IO uint32_t*)0x40068000U)
 #define REG_MLB_MS0 (*(__IO uint32_t*)0x4006800CU)
 #define REG_MLB_MS1 (*(__IO uint32_t*)0x40068014U)
@@ -15412,11 +15412,11 @@ typedef struct {
 #define REG_MLB_ACTL (*(__IO uint32_t*)0x400683C0U)
 #define REG_MLB_ACSR (*(__IO uint32_t*)0x400683D0U)
 #define REG_MLB_ACMR (*(__IO uint32_t*)0x400683D8U)
-# 401 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h"
+# 401 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h"
 #define _SAMV71_AES_INSTANCE_ 
-# 52 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h"
+# 52 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_aes.h"
 #define REG_AES_CR (*(__O uint32_t*)0x4006C000U)
 #define REG_AES_MR (*(__IO uint32_t*)0x4006C004U)
 #define REG_AES_IER (*(__O uint32_t*)0x4006C010U)
@@ -15433,22 +15433,22 @@ typedef struct {
 #define REG_AES_TAGR (*(__I uint32_t*)0x4006C088U)
 #define REG_AES_CTRR (*(__I uint32_t*)0x4006C098U)
 #define REG_AES_GCMHR (*(__IO uint32_t*)0x4006C09CU)
-# 402 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h"
+# 402 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h"
 #define _SAMV71_TRNG_INSTANCE_ 
-# 42 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h"
+# 42 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_trng.h"
 #define REG_TRNG_CR (*(__O uint32_t*)0x40070000U)
 #define REG_TRNG_IER (*(__O uint32_t*)0x40070010U)
 #define REG_TRNG_IDR (*(__O uint32_t*)0x40070014U)
 #define REG_TRNG_IMR (*(__I uint32_t*)0x40070018U)
 #define REG_TRNG_ISR (*(__I uint32_t*)0x4007001CU)
 #define REG_TRNG_ODATA (*(__I uint32_t*)0x40070050U)
-# 403 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h"
+# 403 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h"
 #define _SAMV71_XDMAC_INSTANCE_ 
-# 389 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h"
+# 389 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_xdmac.h"
 #define REG_XDMAC_GTYPE (*(__IO uint32_t*)0x40078000U)
 #define REG_XDMAC_GCFG (*(__I uint32_t*)0x40078004U)
 #define REG_XDMAC_GWAC (*(__IO uint32_t*)0x40078008U)
@@ -15802,11 +15802,11 @@ typedef struct {
 #define REG_XDMAC_CDS_MSP23 (*(__IO uint32_t*)0x4007863CU)
 #define REG_XDMAC_CSUS23 (*(__IO uint32_t*)0x40078640U)
 #define REG_XDMAC_CDUS23 (*(__IO uint32_t*)0x40078644U)
-# 404 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h"
+# 404 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h"
 #define _SAMV71_QSPI_INSTANCE_ 
-# 52 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h"
+# 52 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_qspi.h"
 #define REG_QSPI_CR (*(__O uint32_t*)0x4007C000U)
 #define REG_QSPI_MR (*(__IO uint32_t*)0x4007C004U)
 #define REG_QSPI_RDR (*(__I uint32_t*)0x4007C008U)
@@ -15823,11 +15823,11 @@ typedef struct {
 #define REG_QSPI_SKR (*(__O uint32_t*)0x4007C044U)
 #define REG_QSPI_WPMR (*(__IO uint32_t*)0x4007C0E4U)
 #define REG_QSPI_WPSR (*(__I uint32_t*)0x4007C0E8U)
-# 405 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h"
+# 405 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h"
 #define _SAMV71_SMC_INSTANCE_ 
-# 57 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h"
+# 57 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_smc.h"
 #define REG_SMC_SETUP0 (*(__IO uint32_t*)0x40080000U)
 #define REG_SMC_PULSE0 (*(__IO uint32_t*)0x40080004U)
 #define REG_SMC_CYCLE0 (*(__IO uint32_t*)0x40080008U)
@@ -15849,11 +15849,11 @@ typedef struct {
 #define REG_SMC_KEY2 (*(__O uint32_t*)0x40080088U)
 #define REG_SMC_WPMR (*(__IO uint32_t*)0x400800E4U)
 #define REG_SMC_WPSR (*(__I uint32_t*)0x400800E8U)
-# 406 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h"
+# 406 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h"
 #define _SAMV71_SDRAMC_INSTANCE_ 
-# 49 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h"
+# 49 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_sdramc.h"
 #define REG_SDRAMC_MR (*(__IO uint32_t*)0x40084000U)
 #define REG_SDRAMC_TR (*(__IO uint32_t*)0x40084004U)
 #define REG_SDRAMC_CR (*(__IO uint32_t*)0x40084008U)
@@ -15867,11 +15867,11 @@ typedef struct {
 #define REG_SDRAMC_OCMS (*(__IO uint32_t*)0x4008402CU)
 #define REG_SDRAMC_OCMS_KEY1 (*(__O uint32_t*)0x40084030U)
 #define REG_SDRAMC_OCMS_KEY2 (*(__O uint32_t*)0x40084034U)
-# 407 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h"
+# 407 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h"
 #define _SAMV71_MATRIX_INSTANCE_ 
-# 62 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h"
+# 62 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_matrix.h"
 #define REG_MATRIX_MCFG (*(__IO uint32_t*)0x40088000U)
 #define REG_MATRIX_SCFG (*(__IO uint32_t*)0x40088040U)
 #define REG_MATRIX_PRAS0 (*(__IO uint32_t*)0x40088080U)
@@ -15898,9 +15898,9 @@ typedef struct {
 #define REG_CCFG_SMCNFCS (*(__IO uint32_t*)0x40088124U)
 #define REG_MATRIX_WPMR (*(__IO uint32_t*)0x400881E4U)
 #define REG_MATRIX_WPSR (*(__I uint32_t*)0x400881E8U)
-# 408 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_utmi.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_utmi.h"
+# 408 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_utmi.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_utmi.h"
 #define _SAMV71_UTMI_INSTANCE_ 
 
 
@@ -15910,11 +15910,11 @@ typedef struct {
 
 #define REG_UTMI_OHCIICR (*(__IO uint32_t*)0x400E0410U)
 #define REG_UTMI_CKTRIM (*(__IO uint32_t*)0x400E0430U)
-# 409 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h"
+# 409 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h"
 #define _SAMV71_PMC_INSTANCE_ 
-# 72 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h"
+# 72 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pmc.h"
 #define REG_PMC_SCER (*(__O uint32_t*)0x400E0600U)
 #define REG_PMC_SCDR (*(__O uint32_t*)0x400E0604U)
 #define REG_PMC_SCSR (*(__I uint32_t*)0x400E0608U)
@@ -15951,11 +15951,11 @@ typedef struct {
 #define REG_PMC_SLPWK_SR1 (*(__I uint32_t*)0x400E073CU)
 #define REG_PMC_SLPWK_ASR1 (*(__I uint32_t*)0x400E0740U)
 #define REG_PMC_SLPWK_AIPR (*(__I uint32_t*)0x400E0744U)
-# 410 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h"
+# 410 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h"
 #define _SAMV71_UART0_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart0.h"
 #define REG_UART0_CR (*(__O uint32_t*)0x400E0800U)
 #define REG_UART0_MR (*(__IO uint32_t*)0x400E0804U)
 #define REG_UART0_IER (*(__O uint32_t*)0x400E0808U)
@@ -15967,9 +15967,9 @@ typedef struct {
 #define REG_UART0_BRGR (*(__IO uint32_t*)0x400E0820U)
 #define REG_UART0_CMPR (*(__IO uint32_t*)0x400E0824U)
 #define REG_UART0_WPMR (*(__IO uint32_t*)0x400E08E4U)
-# 411 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_chipid.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_chipid.h"
+# 411 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_chipid.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_chipid.h"
 #define _SAMV71_CHIPID_INSTANCE_ 
 
 
@@ -15979,11 +15979,11 @@ typedef struct {
 
 #define REG_CHIPID_CIDR (*(__I uint32_t*)0x400E0940U)
 #define REG_CHIPID_EXID (*(__I uint32_t*)0x400E0944U)
-# 412 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h"
+# 412 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h"
 #define _SAMV71_UART1_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart1.h"
 #define REG_UART1_CR (*(__O uint32_t*)0x400E0A00U)
 #define REG_UART1_MR (*(__IO uint32_t*)0x400E0A04U)
 #define REG_UART1_IER (*(__O uint32_t*)0x400E0A08U)
@@ -15995,22 +15995,22 @@ typedef struct {
 #define REG_UART1_BRGR (*(__IO uint32_t*)0x400E0A20U)
 #define REG_UART1_CMPR (*(__IO uint32_t*)0x400E0A24U)
 #define REG_UART1_WPMR (*(__IO uint32_t*)0x400E0AE4U)
-# 413 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h"
+# 413 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h"
 #define _SAMV71_EFC_INSTANCE_ 
-# 42 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h"
+# 42 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_efc.h"
 #define REG_EFC_FMR (*(__IO uint32_t*)0x400E0C00U)
 #define REG_EFC_FCR (*(__O uint32_t*)0x400E0C04U)
 #define REG_EFC_FSR (*(__I uint32_t*)0x400E0C08U)
 #define REG_EFC_FRR (*(__I uint32_t*)0x400E0C0CU)
 #define REG_EFC_VERSION (*(__I uint32_t*)0x400E0C14U)
 #define REG_EFC_WPMR (*(__IO uint32_t*)0x400E0CE4U)
-# 414 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h"
+# 414 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h"
 #define _SAMV71_PIOA_INSTANCE_ 
-# 98 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h"
+# 98 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioa.h"
 #define REG_PIOA_PER (*(__O uint32_t*)0x400E0E00U)
 #define REG_PIOA_PDR (*(__O uint32_t*)0x400E0E04U)
 #define REG_PIOA_PSR (*(__I uint32_t*)0x400E0E08U)
@@ -16073,11 +16073,11 @@ typedef struct {
 #define REG_PIOA_PCIMR (*(__I uint32_t*)0x400E0F5CU)
 #define REG_PIOA_PCISR (*(__I uint32_t*)0x400E0F60U)
 #define REG_PIOA_PCRHR (*(__I uint32_t*)0x400E0F64U)
-# 415 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h"
+# 415 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h"
 #define _SAMV71_PIOB_INSTANCE_ 
-# 98 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h"
+# 98 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piob.h"
 #define REG_PIOB_PER (*(__O uint32_t*)0x400E1000U)
 #define REG_PIOB_PDR (*(__O uint32_t*)0x400E1004U)
 #define REG_PIOB_PSR (*(__I uint32_t*)0x400E1008U)
@@ -16140,11 +16140,11 @@ typedef struct {
 #define REG_PIOB_PCIMR (*(__I uint32_t*)0x400E115CU)
 #define REG_PIOB_PCISR (*(__I uint32_t*)0x400E1160U)
 #define REG_PIOB_PCRHR (*(__I uint32_t*)0x400E1164U)
-# 416 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h"
+# 416 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h"
 #define _SAMV71_PIOC_INSTANCE_ 
-# 98 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h"
+# 98 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioc.h"
 #define REG_PIOC_PER (*(__O uint32_t*)0x400E1200U)
 #define REG_PIOC_PDR (*(__O uint32_t*)0x400E1204U)
 #define REG_PIOC_PSR (*(__I uint32_t*)0x400E1208U)
@@ -16207,11 +16207,11 @@ typedef struct {
 #define REG_PIOC_PCIMR (*(__I uint32_t*)0x400E135CU)
 #define REG_PIOC_PCISR (*(__I uint32_t*)0x400E1360U)
 #define REG_PIOC_PCRHR (*(__I uint32_t*)0x400E1364U)
-# 417 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h"
+# 417 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h"
 #define _SAMV71_PIOD_INSTANCE_ 
-# 98 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h"
+# 98 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_piod.h"
 #define REG_PIOD_PER (*(__O uint32_t*)0x400E1400U)
 #define REG_PIOD_PDR (*(__O uint32_t*)0x400E1404U)
 #define REG_PIOD_PSR (*(__I uint32_t*)0x400E1408U)
@@ -16274,11 +16274,11 @@ typedef struct {
 #define REG_PIOD_PCIMR (*(__I uint32_t*)0x400E155CU)
 #define REG_PIOD_PCISR (*(__I uint32_t*)0x400E1560U)
 #define REG_PIOD_PCRHR (*(__I uint32_t*)0x400E1564U)
-# 418 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h"
+# 418 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h"
 #define _SAMV71_PIOE_INSTANCE_ 
-# 98 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h"
+# 98 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_pioe.h"
 #define REG_PIOE_PER (*(__O uint32_t*)0x400E1600U)
 #define REG_PIOE_PDR (*(__O uint32_t*)0x400E1604U)
 #define REG_PIOE_PSR (*(__I uint32_t*)0x400E1608U)
@@ -16341,9 +16341,9 @@ typedef struct {
 #define REG_PIOE_PCIMR (*(__I uint32_t*)0x400E175CU)
 #define REG_PIOE_PCISR (*(__I uint32_t*)0x400E1760U)
 #define REG_PIOE_PCRHR (*(__I uint32_t*)0x400E1764U)
-# 419 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rstc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rstc.h"
+# 419 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rstc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rstc.h"
 #define _SAMV71_RSTC_INSTANCE_ 
 
 
@@ -16355,29 +16355,29 @@ typedef struct {
 #define REG_RSTC_CR (*(__O uint32_t*)0x400E1800U)
 #define REG_RSTC_SR (*(__I uint32_t*)0x400E1804U)
 #define REG_RSTC_MR (*(__IO uint32_t*)0x400E1808U)
-# 420 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h"
+# 420 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h"
 #define _SAMV71_SUPC_INSTANCE_ 
-# 42 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h"
+# 42 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_supc.h"
 #define REG_SUPC_CR (*(__O uint32_t*)0x400E1810U)
 #define REG_SUPC_SMMR (*(__IO uint32_t*)0x400E1814U)
 #define REG_SUPC_MR (*(__IO uint32_t*)0x400E1818U)
 #define REG_SUPC_WUMR (*(__IO uint32_t*)0x400E181CU)
 #define REG_SUPC_WUIR (*(__IO uint32_t*)0x400E1820U)
 #define REG_SUPC_SR (*(__I uint32_t*)0x400E1824U)
-# 421 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h"
+# 421 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h"
 #define _SAMV71_RTT_INSTANCE_ 
-# 40 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h"
+# 40 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtt.h"
 #define REG_RTT_MR (*(__IO uint32_t*)0x400E1830U)
 #define REG_RTT_AR (*(__IO uint32_t*)0x400E1834U)
 #define REG_RTT_VR (*(__I uint32_t*)0x400E1838U)
 #define REG_RTT_SR (*(__I uint32_t*)0x400E183CU)
-# 422 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_wdt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_wdt.h"
+# 422 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_wdt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_wdt.h"
 #define _SAMV71_WDT_INSTANCE_ 
 
 
@@ -16389,11 +16389,11 @@ typedef struct {
 #define REG_WDT_CR (*(__O uint32_t*)0x400E1850U)
 #define REG_WDT_MR (*(__IO uint32_t*)0x400E1854U)
 #define REG_WDT_SR (*(__I uint32_t*)0x400E1858U)
-# 423 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h"
+# 423 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h"
 #define _SAMV71_RTC_INSTANCE_ 
-# 48 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h"
+# 48 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rtc.h"
 #define REG_RTC_CR (*(__IO uint32_t*)0x400E1860U)
 #define REG_RTC_MR (*(__IO uint32_t*)0x400E1864U)
 #define REG_RTC_TIMR (*(__IO uint32_t*)0x400E1868U)
@@ -16406,9 +16406,9 @@ typedef struct {
 #define REG_RTC_IDR (*(__O uint32_t*)0x400E1884U)
 #define REG_RTC_IMR (*(__I uint32_t*)0x400E1888U)
 #define REG_RTC_VER (*(__I uint32_t*)0x400E188CU)
-# 424 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gpbr.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gpbr.h"
+# 424 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gpbr.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_gpbr.h"
 #define _SAMV71_GPBR_INSTANCE_ 
 
 
@@ -16416,9 +16416,9 @@ typedef struct {
 
 
 #define REG_GPBR_GPBR (*(__IO uint32_t*)0x400E1890U)
-# 425 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rswdt.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rswdt.h"
+# 425 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rswdt.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_rswdt.h"
 #define _SAMV71_RSWDT_INSTANCE_ 
 
 
@@ -16430,11 +16430,11 @@ typedef struct {
 #define REG_RSWDT_CR (*(__O uint32_t*)0x400E1900U)
 #define REG_RSWDT_MR (*(__IO uint32_t*)0x400E1904U)
 #define REG_RSWDT_SR (*(__I uint32_t*)0x400E1908U)
-# 426 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h"
+# 426 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h"
 #define _SAMV71_UART2_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart2.h"
 #define REG_UART2_CR (*(__O uint32_t*)0x400E1A00U)
 #define REG_UART2_MR (*(__IO uint32_t*)0x400E1A04U)
 #define REG_UART2_IER (*(__O uint32_t*)0x400E1A08U)
@@ -16446,11 +16446,11 @@ typedef struct {
 #define REG_UART2_BRGR (*(__IO uint32_t*)0x400E1A20U)
 #define REG_UART2_CMPR (*(__IO uint32_t*)0x400E1A24U)
 #define REG_UART2_WPMR (*(__IO uint32_t*)0x400E1AE4U)
-# 427 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h"
+# 427 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h"
 #define _SAMV71_UART3_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart3.h"
 #define REG_UART3_CR (*(__O uint32_t*)0x400E1C00U)
 #define REG_UART3_MR (*(__IO uint32_t*)0x400E1C04U)
 #define REG_UART3_IER (*(__O uint32_t*)0x400E1C08U)
@@ -16462,11 +16462,11 @@ typedef struct {
 #define REG_UART3_BRGR (*(__IO uint32_t*)0x400E1C20U)
 #define REG_UART3_CMPR (*(__IO uint32_t*)0x400E1C24U)
 #define REG_UART3_WPMR (*(__IO uint32_t*)0x400E1CE4U)
-# 428 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h"
+# 428 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h"
 #define _SAMV71_UART4_INSTANCE_ 
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/instance/instance_uart4.h"
 #define REG_UART4_CR (*(__O uint32_t*)0x400E1E00U)
 #define REG_UART4_MR (*(__IO uint32_t*)0x400E1E04U)
 #define REG_UART4_IER (*(__O uint32_t*)0x400E1E08U)
@@ -16478,8 +16478,8 @@ typedef struct {
 #define REG_UART4_BRGR (*(__IO uint32_t*)0x400E1E20U)
 #define REG_UART4_CMPR (*(__IO uint32_t*)0x400E1E24U)
 #define REG_UART4_WPMR (*(__IO uint32_t*)0x400E1EE4U)
-# 429 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
-# 437 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 429 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 437 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
 #define ID_SUPC ( 0)
 #define ID_RSTC ( 1)
 #define ID_RTC ( 2)
@@ -16541,7 +16541,7 @@ typedef struct {
 #define ID_RSWDT (63)
 
 #define ID_PERIPH_COUNT (64)
-# 563 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 563 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
 #define HSMCI ((Hsmci *)0x40000000U)
 #define SSC ((Ssc *)0x40004000U)
 #define SPI0 ((Spi *)0x40008000U)
@@ -16597,9 +16597,9 @@ typedef struct {
 #define UART2 ((Uart *)0x400E1A00U)
 #define UART3 ((Uart *)0x400E1C00U)
 #define UART4 ((Uart *)0x400E1E00U)
-# 627 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/pio/pio_samv71q21.h" 1
-# 31 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/pio/pio_samv71q21.h"
+# 627 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/pio/pio_samv71q21.h" 1
+# 31 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/pio/pio_samv71q21.h"
 #define _SAMV71Q21_PIO_ 
 
 #define PIO_PA0 (1u << 0)
@@ -17240,7 +17240,7 @@ typedef struct {
 #define PIO_PE3_IDX 131
 #define PIO_PE4_IDX 132
 #define PIO_PE5_IDX 133
-# 628 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
+# 628 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h" 2
 
 
 
@@ -17275,7 +17275,7 @@ typedef struct {
 #define CHIP_JTAGID (0x05B3D03FUL)
 #define CHIP_CIDR (0xA1220E00UL)
 #define CHIP_EXID (0x00000002UL)
-# 670 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
+# 670 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71q21.h"
 #define CHIP_FREQ_SLCK_RC_MIN (20000UL)
 #define CHIP_FREQ_SLCK_RC (32000UL)
 #define CHIP_FREQ_SLCK_RC_MAX (44000UL)
@@ -17293,21 +17293,21 @@ typedef struct {
 #define CHIP_FREQ_FWS_3 (104000000UL)
 #define CHIP_FREQ_FWS_4 (131000000UL)
 #define CHIP_FREQ_FWS_5 (150000000UL)
-# 51 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h" 2
-# 38 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
+# 51 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/include/samv7/samv71.h" 2
+# 38 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
 
 
 
 
 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 39 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 39 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define _STDDEF_H 
 #define _STDDEF_H_ 
 
 #define _ANSI_STDDEF_H 
-# 136 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 136 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define _PTRDIFF_T 
 #define _T_PTRDIFF_ 
 #define _T_PTRDIFF 
@@ -17320,9 +17320,9 @@ typedef struct {
 
 
 typedef int ptrdiff_t;
-# 158 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 158 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_ptrdiff_t
-# 184 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 184 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define __size_t__ 
 #define __SIZE_T__ 
 #define _SIZE_T 
@@ -17352,9 +17352,9 @@ typedef int ptrdiff_t;
 
 
 typedef unsigned int size_t;
-# 234 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 234 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_size_t
-# 263 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 263 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #define __wchar_t__ 
 #define __WCHAR_T__ 
 #define _WCHAR_T 
@@ -17370,13 +17370,13 @@ typedef unsigned int size_t;
 #define __INT_WCHAR_T_H 
 #define _GCC_WCHAR_T 
 #define _WCHAR_T_DECLARED 
-# 290 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 290 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef _BSD_WCHAR_T_
-# 324 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 324 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 343 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 343 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_wchar_t
-# 397 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 397 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef NULL
 
 
@@ -17394,8 +17394,8 @@ typedef unsigned int wchar_t;
 
 
 #define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
-# 45 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 1 3
+# 45 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 1 3
 
 
 
@@ -17405,15 +17405,15 @@ typedef unsigned int wchar_t;
 
 #define _STDLIB_H_ 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 1 3
-# 60 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 1 3
+# 60 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 3
 #define __IEEE_LITTLE_ENDIAN 
-# 11 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 1 3
-# 13 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
+# 11 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 1 3
+# 13 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
 #define _ANSIDECL_H_ 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 1 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 1 3
 
 
 
@@ -17438,9 +17438,9 @@ typedef unsigned int wchar_t;
 
 
 #define _WANT_REGISTER_FINI 1
-# 40 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 3
+# 40 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 3
 #define _MB_LEN_MAX 1
-# 50 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 3
+# 50 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\newlib.h" 3
 #define HAVE_INITFINI_ARRAY 1
 
 
@@ -17467,14 +17467,14 @@ typedef unsigned int wchar_t;
 
 
 #define _UNBUF_STREAM_OPT 1
-# 16 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 1 3
+# 16 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 1 3
 
 #define __SYS_CONFIG_H__ 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 1 3
-# 5 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 2 3
-# 220 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\ieeefp.h" 1 3
+# 5 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 2 3
+# 220 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 3
 #define _POINTER_INT long
 
 
@@ -17486,7 +17486,7 @@ typedef unsigned int wchar_t;
 
 
 #define __RAND_MAX 0x7fffffff
-# 248 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 3
+# 248 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\config.h" 3
 #define __EXPORT 
 
 
@@ -17505,7 +17505,7 @@ typedef unsigned int wchar_t;
 
 
 #define _READ_WRITE_BUFSIZE_TYPE int
-# 17 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 2 3
+# 17 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 2 3
 
 
 
@@ -17513,7 +17513,7 @@ typedef unsigned int wchar_t;
 
 
 #define _HAVE_STDC 
-# 44 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
+# 44 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
 #define _BEGIN_STD_C 
 #define _END_STD_C 
 #define _NOTHROW 
@@ -17547,9 +17547,9 @@ typedef unsigned int wchar_t;
 
 
 #define _PARAMS(paramlist) paramlist
-# 101 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
+# 101 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
 #define _ATTRIBUTE(attrs) __attribute__ (attrs)
-# 123 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
+# 123 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 3
 #define _ELIDABLE_INLINE extern __inline__ _ATTRIBUTE ((__always_inline__))
 
 
@@ -17560,19 +17560,19 @@ typedef unsigned int wchar_t;
 
 #define _NOINLINE __attribute__ ((__noinline__))
 #define _NOINLINE_STATIC _NOINLINE static
-# 12 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 12 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
 
 #define __need_size_t 
 #define __need_wchar_t 
 #define __need_NULL 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 158 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 158 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_ptrdiff_t
-# 234 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 234 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_size_t
-# 343 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 343 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_wchar_t
-# 397 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 397 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef NULL
 
 
@@ -17590,29 +17590,29 @@ typedef unsigned int wchar_t;
 
 
 #define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
-# 17 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 17 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 1 3
-# 11 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 1 3
+# 11 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _SYS_REENT_H_ 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 1 3
-# 14 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 15 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 1 3
-# 10 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\_ansi.h" 1 3
+# 14 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 15 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 1 3
+# 10 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
 #define _SYS__TYPES_H 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_types.h" 1 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\_types.h" 1 3
 
 
 
 
 
 #define _MACHINE__TYPES_H 
-# 13 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\lock.h" 1 3
+# 13 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\lock.h" 1 3
 
 #define __SYS_LOCK_H__ 
 
@@ -17635,7 +17635,7 @@ typedef int _LOCK_RECURSIVE_T;
 #define __lock_try_acquire_recursive(lock) (_CAST_VOID 0)
 #define __lock_release(lock) (_CAST_VOID 0)
 #define __lock_release_recursive(lock) (_CAST_VOID 0)
-# 14 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
+# 14 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
 
 
 typedef long _off_t;
@@ -17662,18 +17662,18 @@ __extension__ typedef long long _off64_t;
 
 
 typedef long _fpos_t;
-# 54 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
+# 54 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
 #define unsigned signed
 typedef signed int _ssize_t;
 #undef unsigned
-# 66 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
+# 66 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 3
 #define __need_wint_t 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 158 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 158 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_ptrdiff_t
-# 234 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 234 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_size_t
-# 343 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 343 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef __need_wchar_t
 
 
@@ -17687,7 +17687,7 @@ typedef signed int _ssize_t;
 typedef unsigned int wint_t;
 
 #undef __need_wint_t
-# 397 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
+# 397 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 3 4
 #undef NULL
 
 
@@ -17705,7 +17705,7 @@ typedef unsigned int wint_t;
 
 
 #define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
-# 68 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
+# 68 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\_types.h" 2 3
 
 
 
@@ -17727,7 +17727,7 @@ typedef _LOCK_RECURSIVE_T _flock_t;
 
 
 typedef void *_iconv_t;
-# 16 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
+# 16 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 2 3
 
 #define _NULL 0
 
@@ -17735,7 +17735,7 @@ typedef void *_iconv_t;
 
 #define __Long long
 typedef unsigned long __ULong;
-# 38 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 38 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 struct _reent;
 
 
@@ -17779,7 +17779,7 @@ struct _on_exit_args {
 
  __ULong _is_cxa;
 };
-# 91 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 91 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 struct _atexit {
  struct _atexit *_next;
  int _ind;
@@ -17794,12 +17794,12 @@ struct _atexit {
 
 
 #define _REENT_INIT_ATEXIT _NULL, _ATEXIT_INIT,
-# 115 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 115 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 176 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 176 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _REENT_SMALL_CHECK_INIT(ptr) 
 
 
@@ -17853,7 +17853,7 @@ struct __sFILE {
   _mbstate_t _mbstate;
   int _flags2;
 };
-# 285 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 285 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 typedef struct __sFILE __FILE;
 
 
@@ -17864,7 +17864,7 @@ struct _glue
   int _niobs;
   __FILE *_iobs;
 };
-# 310 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 310 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _RAND48_SEED_0 (0x330e)
 #define _RAND48_SEED_1 (0xabcd)
 #define _RAND48_SEED_2 (0x1234)
@@ -17886,7 +17886,7 @@ struct _rand48 {
 #define _REENT_EMERGENCY_SIZE 25
 #define _REENT_ASCTIME_SIZE 26
 #define _REENT_SIGNAL_SIZE 24
-# 569 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 569 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 struct _reent
 {
   int _errno;
@@ -17968,9 +17968,9 @@ struct _reent
 };
 
 #define _REENT_INIT(var) { 0, &(var).__sf[0], &(var).__sf[1], &(var).__sf[2], 0, "", 0, "C", 0, _NULL, _NULL, 0, _NULL, _NULL, 0, _NULL, { { 0, _NULL, "", {0, 0, 0, 0, 0, 0, 0, 0, 0}, 0, 1, { {_RAND48_SEED_0, _RAND48_SEED_1, _RAND48_SEED_2}, {_RAND48_MULT_0, _RAND48_MULT_1, _RAND48_MULT_2}, _RAND48_ADD }, {0, {0}}, {0, {0}}, {0, {0}}, "", "", 0, {0, {0}}, {0, {0}}, {0, {0}}, {0, {0}}, {0, {0}} } }, _REENT_INIT_ATEXIT _NULL, {_NULL, 0, _NULL} }
-# 697 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 697 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _REENT_INIT_PTR(var) { memset((var), 0, sizeof(*(var))); (var)->_stdin = &(var)->__sf[0]; (var)->_stdout = &(var)->__sf[1]; (var)->_stderr = &(var)->__sf[2]; (var)->_current_locale = "C"; (var)->_new._reent._rand_next = 1; (var)->_new._reent._r48._seed[0] = _RAND48_SEED_0; (var)->_new._reent._r48._seed[1] = _RAND48_SEED_1; (var)->_new._reent._r48._seed[2] = _RAND48_SEED_2; (var)->_new._reent._r48._mult[0] = _RAND48_MULT_0; (var)->_new._reent._r48._mult[1] = _RAND48_MULT_1; (var)->_new._reent._r48._mult[2] = _RAND48_MULT_2; (var)->_new._reent._r48._add = _RAND48_ADD; }
-# 713 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 713 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _REENT_CHECK_RAND48(ptr) 
 #define _REENT_CHECK_MP(ptr) 
 #define _REENT_CHECK_TM(ptr) 
@@ -18024,7 +18024,7 @@ extern struct _reent *_impure_ptr ;
 extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
-# 775 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
+# 775 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\reent.h" 3
 #define _REENT _impure_ptr
 
 
@@ -18035,15 +18035,15 @@ void _reclaim_reent (struct _reent *);
 
 
 #define _GLOBAL_ATEXIT (_GLOBAL_REENT->_atexit)
-# 19 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 1 3
-# 41 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 19 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 1 3
+# 41 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define _SYS_CDEFS_H_ 
 
 
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
-# 46 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stddef.h" 1 3 4
+# 46 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 2 3
 
 #define __PMT(args) args
 #define __DOTS , ...
@@ -18090,7 +18090,7 @@ void _reclaim_reent (struct _reent *);
 
 #define __BEGIN_DECLS 
 #define __END_DECLS 
-# 103 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 103 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __GNUCLIKE_ASM 3
 #define __GNUCLIKE_MATH_BUILTIN_CONSTANTS 
 
@@ -18145,7 +18145,7 @@ void _reclaim_reent (struct _reent *);
 #define __CC_SUPPORTS_VARADIC_XXX 1
 
 #define __CC_SUPPORTS_DYNAMIC_ARRAY_INIT 1
-# 173 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 173 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __P(protos) protos
 #define __CONCAT1(x,y) x ## y
 #define __CONCAT(x,y) __CONCAT1(x,y)
@@ -18155,7 +18155,7 @@ void _reclaim_reent (struct _reent *);
 #define __const const
 #define __signed signed
 #define __volatile volatile
-# 246 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 246 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __dead2 __attribute__((__noreturn__))
 #define __pure2 __attribute__((__const__))
 #define __unused __attribute__((__unused__))
@@ -18163,7 +18163,7 @@ void _reclaim_reent (struct _reent *);
 #define __packed __attribute__((__packed__))
 #define __aligned(x) __attribute__((__aligned__(x)))
 #define __section(x) __attribute__((__section__(x)))
-# 281 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 281 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define _Alignas(x) __aligned(x)
 
 
@@ -18186,9 +18186,9 @@ void _reclaim_reent (struct _reent *);
 
 
 #define _Noreturn __dead2
-# 326 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 326 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define _Thread_local __thread
-# 345 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 345 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __generic(expr,t,yes,no) __builtin_choose_expr( __builtin_types_compatible_p(__typeof(expr), t), yes, no)
 
 
@@ -18228,9 +18228,9 @@ void _reclaim_reent (struct _reent *);
 
 
 #define __returns_twice __attribute__((__returns_twice__))
-# 401 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 401 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __restrict 
-# 436 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 436 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __predict_true(exp) __builtin_expect((exp), 1)
 #define __predict_false(exp) __builtin_expect((exp), 0)
 
@@ -18248,9 +18248,9 @@ void _reclaim_reent (struct _reent *);
 
 #define __offsetof(type,field) offsetof(type, field)
 #define __rangeof(type,start,end) (__offsetof(type, end) - __offsetof(type, start))
-# 462 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 462 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __containerof(x,s,m) ({ const volatile __typeof__(((s *)0)->m) *__x = (x); __DEQUALIFY(s *, (const volatile char *)__x - __offsetof(s, m));})
-# 484 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 484 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __printflike(fmtarg,firstvararg) __attribute__((__format__ (__printf__, fmtarg, firstvararg)))
 
 #define __scanflike(fmtarg,firstvararg) __attribute__((__format__ (__scanf__, fmtarg, firstvararg)))
@@ -18259,7 +18259,7 @@ void _reclaim_reent (struct _reent *);
 #define __strfmonlike(fmtarg,firstvararg) __attribute__((__format__ (__strfmon__, fmtarg, firstvararg)))
 
 #define __strftimelike(fmtarg,firstvararg) __attribute__((__format__ (__strftime__, fmtarg, firstvararg)))
-# 501 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 501 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __printf0like(fmtarg,firstvararg) 
 
 
@@ -18280,7 +18280,7 @@ void _reclaim_reent (struct _reent *);
 #define __sym_compat(sym,impl,verid) __asm__(".symver " #impl ", " #sym "@" #verid)
 
 #define __sym_default(sym,impl,verid) __asm__(".symver " #impl ", " #sym "@@" #verid)
-# 555 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 555 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __FBSDID(s) struct __hack
 
 
@@ -18310,18 +18310,18 @@ void _reclaim_reent (struct _reent *);
 
 
 #define __DEQUALIFY(type,var) ((type)(__uintptr_t)(const volatile void *)(var))
-# 705 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
+# 705 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\sys\\cdefs.h" 3
 #define __POSIX_VISIBLE 200809
 #define __XSI_VISIBLE 700
 #define __BSD_VISIBLE 1
 #define __ISO_C_VISIBLE 2011
-# 20 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\stdlib.h" 1 3
+# 20 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\machine\\stdlib.h" 1 3
 
 #define _MACHSTDLIB_H_ 
-# 21 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 21 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
 
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\alloca.h" 1 3
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\alloca.h" 1 3
 
 
 
@@ -18338,7 +18338,7 @@ void _reclaim_reent (struct _reent *);
 
 
 #define alloca(size) __builtin_alloca(size)
-# 23 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
+# 23 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 2 3
 
 
 
@@ -18554,7 +18554,7 @@ unsigned long long _strtoull_r (struct _reent *, const char * __n, char ** __end
 void cfree (void *);
 int unsetenv (const char *__string);
 int _unsetenv_r (struct _reent *, const char *__string);
-# 246 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 3
+# 246 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 3
 char * _dtoa_r (struct _reent *, double, int, int, int *, int*, char**);
 
 void * _malloc_r (struct _reent *, size_t) ;
@@ -18566,15 +18566,15 @@ void _mstats_r (struct _reent *, char *);
 int _system_r (struct _reent *, const char *);
 
 void __eprintf (const char *, const char *, unsigned int, const char *);
-# 279 "c:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 3
+# 279 "e:\\isystem\\winideaopen9\\gcc\\arm\\arm-none-eabi\\include\\stdlib.h" 3
 extern long double strtold (const char *, char **);
 
 
 
 
-# 46 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
-# 1 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
-# 29 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 46 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
+# 1 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 1 3 4
+# 29 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define _STDBOOL_H 
 
 
@@ -18582,26 +18582,26 @@ extern long double strtold (const char *, char **);
 #define bool _Bool
 #define true 1
 #define false 0
-# 48 "c:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
+# 48 "e:\\isystem\\winideaopen9\\gcc\\arm\\lib\\gcc\\arm-none-eabi\\4.9.3\\include\\stdbool.h" 3 4
 #define __bool_true_false_are_defined 1
-# 47 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
-# 55 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 47 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h" 2
+# 55 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define WEAK __attribute__ ((weak))
-# 64 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 64 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define COMPILER_NAME "GCC"
-# 73 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 73 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define NO_INIT 
-# 83 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 83 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define memory_sync() __DSB();__ISB();
-# 92 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 92 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define memory_barrier() __DMB();
-# 106 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 106 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define TPASTE2(a,b) a ##b
 #define TPASTE3(a,b,c) a ##b ##c
-# 120 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 120 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define ATPASTE2(a,b) TPASTE2( a, b)
 #define ATPASTE3(a,b,c) TPASTE3( a, b, c)
-# 131 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 131 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define COMPILER_PRAGMA(arg) _Pragma(#arg)
 
 
@@ -18617,21 +18617,21 @@ extern long double strtold (const char *, char **);
 
 
 #define COMPILER_PACK_RESET() COMPILER_PRAGMA(pack())
-# 156 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 156 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define COMPILER_SECTION(a) __attribute__((__section__(a)))
-# 167 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 167 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define COMPILER_ALIGNED(a) __attribute__((__aligned__(a)))
-# 179 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 179 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define COMPILER_WORD_ALIGNED __attribute__((__aligned__(4)))
-# 205 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 205 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define Abs(a) (((a) < 0 ) ? -(a) : (a))
-# 216 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 216 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define Min(a,b) (((a) < (b)) ? (a) : (b))
-# 227 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 227 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define Max(a,b) (((a) > (b)) ? (a) : (b))
-# 240 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 240 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define min(a,b) Min(a, b)
-# 251 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 251 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define max(a,b) Max(a, b)
 
 
@@ -18646,9 +18646,9 @@ extern long double strtold (const char *, char **);
 
 
 #define UNUSED(v) (void)(v)
-# 287 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 287 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define irq_initialize_vectors() do { } while(0)
-# 308 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 308 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define irq_register_handler(int_num,int_prio) NVIC_ClearPendingIRQ( (IRQn_Type)int_num); NVIC_SetPriority( (IRQn_Type)int_num, int_prio); NVIC_EnableIRQ( (IRQn_Type)int_num);
 
 
@@ -18698,7 +18698,7 @@ static inline void cpu_irq_restore(irqflags_t flags)
  if (cpu_irq_is_enabled_flags(flags))
   do { __DMB(); __enable_irq(); } while (0);
 }
-# 366 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 366 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define Enable_global_interrupt() cpu_irq_enable()
 #define Disable_global_interrupt() cpu_irq_disable()
 #define Is_global_interrupt_enabled() cpu_irq_is_enabled()
@@ -18731,13 +18731,13 @@ static inline void cpu_irq_restore(irqflags_t flags)
 #define HIGH 1
 #define CLR 0
 #define SET 1
-# 406 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7/compiler.h"
+# 406 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7/compiler.h"
 #define ctz(u) ((u) & (1ul << 0) ? 0 : (u) & (1ul << 1) ? 1 : (u) & (1ul << 2) ? 2 : (u) & (1ul << 3) ? 3 : (u) & (1ul << 4) ? 4 : (u) & (1ul << 5) ? 5 : (u) & (1ul << 6) ? 6 : (u) & (1ul << 7) ? 7 : (u) & (1ul << 8) ? 8 : (u) & (1ul << 9) ? 9 : (u) & (1ul << 10) ? 10 : (u) & (1ul << 11) ? 11 : (u) & (1ul << 12) ? 12 : (u) & (1ul << 13) ? 13 : (u) & (1ul << 14) ? 14 : (u) & (1ul << 15) ? 15 : (u) & (1ul << 16) ? 16 : (u) & (1ul << 17) ? 17 : (u) & (1ul << 18) ? 18 : (u) & (1ul << 19) ? 19 : (u) & (1ul << 20) ? 20 : (u) & (1ul << 21) ? 21 : (u) & (1ul << 22) ? 22 : (u) & (1ul << 23) ? 23 : (u) & (1ul << 24) ? 24 : (u) & (1ul << 25) ? 25 : (u) & (1ul << 26) ? 26 : (u) & (1ul << 27) ? 27 : (u) & (1ul << 28) ? 28 : (u) & (1ul << 29) ? 29 : (u) & (1ul << 30) ? 30 : (u) & (1ul << 31) ? 31 : 32)
-# 21 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 2
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h" 1
-# 12 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h"
+# 21 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h" 1
+# 12 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h"
 #define TYPEDEFS_H 
-# 23 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h"
+# 23 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\Commons/typedefs.h"
 #define UINT8 __attribute__ ((aligned (1))) uint8_t
 #define UINT16 __attribute__ ((aligned (2))) uint16_t
 #define UINT32 __attribute__ ((aligned (4))) uint32_t
@@ -18756,29 +18756,29 @@ static inline void cpu_irq_restore(irqflags_t flags)
 #define VINT32 __attribute__ ((aligned (4))) volatile int32_t
 
 typedef void ( * tPtr_to_function )( void );
-# 22 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 2
-# 38 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h"
+# 22 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h" 2
+# 38 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.h"
 int8_t sysTick_init(int32_t base_freq, tPtr_to_function sysTick_handler);
-# 16 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
+# 16 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 1
-# 18 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\cmsis\\CMSIS\\Include/core_cm7.h" 1
+# 18 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
 
-# 1 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\hal\\libchip_samv7\\include\\samv7/system_samv71.h" 1
-# 20 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
+# 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\hal\\libchip_samv7\\include\\samv7/system_samv71.h" 1
+# 20 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c" 2
 
 
 
 
 
 tPtr_to_function pfctnSysTick = (tPtr_to_function)((void *)0);
-# 44 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
+# 44 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
 int8_t sysTick_init(int32_t base_freq, tPtr_to_function sysTick_handler)
 {
  pfctnSysTick = sysTick_handler;
  return SysTick_Config(SystemCoreClock / base_freq);
 }
-# 59 "C:\\Users\\ernesto\\Documents\\ITESO\\2do_Semestre\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
+# 59 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\MCAL\\SysTick\\systick.c"
 void SysTick_Handler(void)
 {
  if (pfctnSysTick)

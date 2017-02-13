@@ -34,12 +34,12 @@
 #include    "lin.h"
 
 /*~~~~~~  Local definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-uint8_t sdutestvar = 0xF0;
+uint8_t sdutestvar[8] = {0x55,0x00,0x55,0x05};
 
-LinPduType_t LinPduTest = { 0x55,
-               LIN_ENHANCED_CS,           
+LinPduType_t LinPduTest = { 0x0F,
+               LIN_CLASSIC_CS,           
                LIN_MASTER_RESPONSE,
-               1,            
+               4,            
                &sdutestvar};
        
        
@@ -78,13 +78,18 @@ extern int main( void )
 	/* Start scheduler */
 	vfnScheduler_Start();
   /* Configure LIN interfaces */
+	PIO_Configure((Pin[])USART0_PINS, PIO_LISTSIZE((Pin[])USART0_PINS));
+	PIO_Configure((Pin[])USART1_PINS, PIO_LISTSIZE((Pin[])USART1_PINS));
+	PIO_Configure((Pin[])USART2_PINS, PIO_LISTSIZE((Pin[])USART2_PINS));
+
+
   Lin_Init(&LinConfiguration);
   
   
   /* Transfer Test */
-  Lin_SendFrame (1, &LinPduTest);
+  Lin_SendFrame (0, &LinPduTest);
   
-  
+                     
   
 	
 	/* Once all the basic services have been started, go to infinite loop to serviced activated tasks */

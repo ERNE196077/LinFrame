@@ -46,6 +46,17 @@
  *        Local definitions
  *----------------------------------------------------------------------------*/
 
+linInterruptFunction USART0_receiveReadyCallback;
+linInterruptFunction USART0_transmitReadyCallback;
+linInterruptFunction USART0_linTransferCompleteCallback;
+
+linInterruptFunction USART1_receiveReadyCallback;
+linInterruptFunction USART1_transmitReadyCallback;
+linInterruptFunction USART1_linTransferCompleteCallback;
+
+linInterruptFunction USART2_receiveReadyCallback;
+linInterruptFunction USART2_transmitReadyCallback;
+linInterruptFunction USART2_linTransferCompleteCallback;
 
 /*------------------------------------------------------------------------------
  *         Exported functions
@@ -499,4 +510,115 @@ void USART_LinWriteId(Usart *pUsart, uint8_t Id)
 uint32_t USART_LinTxReady(Usart *pUsart)
 {
 	return pUsart->US_CSR & US_CSR_TXRDY ;
+}
+
+
+
+uint32_t USART_GetChannelStatus(Usart *pUsart)
+{
+	return pUsart->US_CSR;
+}
+
+uint32_t USART_GetUsartMode( Usart *pUsart )
+{
+	return pUsart->US_MR & 0x0000000F;
+}
+
+void USART_PassLinCallbacks( Usart *pUsart, linInterruptFunction receiveFunction, linInterruptFunction transmitFunction, linInterruptFunction linTcFuntion )
+{
+	uint8_t usartChannel;
+
+	/* Calculate channel */
+	usartChannel = (uint8_t) ( (uint32_t) pUsart - 0x40024000U) / 0x4000U;
+
+	switch( usartChannel )
+	{
+		case 0:
+			USART0_receiveReadyCallback = receiveFunction;
+			USART0_transmitReadyCallback = transmitFunction;
+			USART0_linTransferCompleteCallback = linTcFuntion;
+			break;
+
+		case 1:
+			USART1_receiveReadyCallback = receiveFunction;
+			USART1_transmitReadyCallback = transmitFunction;
+			USART1_linTransferCompleteCallback = linTcFuntion;
+			break;
+
+		case 2:
+			USART2_receiveReadyCallback = receiveFunction;
+			USART2_transmitReadyCallback = transmitFunction;
+			USART2_linTransferCompleteCallback = linTcFuntion;
+			break;
+
+		default:
+			break;
+	}
+
+}
+
+void USART0_Handler( void )
+{
+	uint32_t interruptFlags;
+
+	interruptFlags = USART0->US_CSR;
+
+	if( interruptFlags & US_CSR_RXRDY )
+	{
+		USART0_receiveReadyCallback( USART0 );
+	}
+
+	if( interruptFlags & US_CSR_TXRDY )
+	{
+		USART0_transmitReadyCallback( USART0 );
+	}
+
+	if( interruptFlags & US_CSR_LINTC )
+	{
+		USART0_linTransferCompleteCallback( USART0 );
+	}
+}
+
+void USART1_Handler( void )
+{
+	uint32_t interruptFlags;
+
+	interruptFlags = USART1->US_CSR;
+
+	if( interruptFlags & US_CSR_RXRDY )
+	{
+		USART1_receiveReadyCallback( USART1 );
+	}
+
+	if( interruptFlags & US_CSR_TXRDY )
+	{
+		USART1_transmitReadyCallback( USART1 );
+	}
+
+	if( interruptFlags & US_CSR_LINTC )
+	{
+		USART1_linTransferCompleteCallback( USART1 );
+	}
+}
+
+void USART2_Handler( void )
+{
+	uint32_t interruptFlags;
+
+	interruptFlags = USART2->US_CSR;
+
+	if( interruptFlags & US_CSR_RXRDY )
+	{
+		USART2_receiveReadyCallback( USART2 );
+	}
+
+	if( interruptFlags & US_CSR_TXRDY )
+	{
+		USART2_transmitReadyCallback( USART2 );
+	}
+
+	if( interruptFlags & US_CSR_LINTC )
+	{
+		USART2_linTransferCompleteCallback( USART2 );
+	}
 }

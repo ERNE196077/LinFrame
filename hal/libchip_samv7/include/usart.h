@@ -73,6 +73,8 @@
  * - USART_MODE_IRDA
  */
 
+ typedef void (*linInterruptFunction) (Usart *pUsart);
+
 /** Basic asynchronous mode, i.e. 8 bits no parity.*/
 #define USART_MODE_ASYNCHRONOUS        (US_MR_CHRL_8_BIT | US_MR_PAR_NO)
 
@@ -160,6 +162,12 @@ void USART_LinSetMode(Usart *pUsart, uint32_t mode);
 void USART_LinWriteId(Usart *pUsart, uint8_t Id);
 
 uint32_t USART_LinTxReady(Usart *pUsart);
+
+uint32_t USART_GetChannelStatus(Usart *pUsart);
+
+uint32_t USART_GetUsartMode( Usart *pUsart );
+
+void USART_PassLinCallbacks( Usart *pUsart, linInterruptFunction receiveFunction, linInterruptFunction transmitFunction, linInterruptFunction linTcFuntion );
 
 #ifdef __cplusplus
 }

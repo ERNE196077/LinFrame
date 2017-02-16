@@ -52,6 +52,7 @@ void Lin_TransferCompleteCallback( Usart *pUsart )
 	bufferNo = (uint8_t) ( (uint32_t) pUsart - USART_BASE) / USART_PAGESIZE;
 
 	USART_DisableIt( pUsart, US_IER_TXRDY | US_IER_RXRDY | US_IER_LINTC );
+	NVIC_DisableIRQ(  USART_IRQN(bufferNo) );
 
 	channelTransferState[bufferNo] = LIN_TRANSFER_COMPLETE;
 }

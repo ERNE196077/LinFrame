@@ -26775,13 +26775,12 @@ extern int _write( int file, char *ptr, int len );
 typedef struct _LinChannelType_t_{
  uint8_t LinChannelId;
  uint32_t LinChannelBaudrate;
- Pin pins[5];
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_
 {
  uint8_t LinNumberOfChannels;
- LinChannelType_t LinChannel[] ;
+ LinChannelType_t *LinChannel ;
 }LinConfigType_t;
 # 5 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN\\lin.h" 2
 # 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN\\lin_types.h" 1
@@ -26879,6 +26878,7 @@ void Lin_TransferCompleteCallback( Usart *pUsart )
  bufferNo = (uint8_t) ( (uint32_t) pUsart - 0x40024000U) / 0x4000U;
 
  USART_DisableIt( pUsart, (0x1u << 1) | (0x1u << 0) | (0x1u << 15) );
+ NVIC_DisableIRQ( ((13) + (bufferNo)) );
 
  channelTransferState[bufferNo] = LIN_TRANSFER_COMPLETE;
 }

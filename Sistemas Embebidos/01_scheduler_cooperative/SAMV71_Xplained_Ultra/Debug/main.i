@@ -27044,13 +27044,12 @@ void vfnMemAlloc_Erase( uint8_t * StartAddress , uint16_t u16SizeinBytes);
 typedef struct _LinChannelType_t_{
  uint8_t LinChannelId;
  uint32_t LinChannelBaudrate;
- Pin pins[5];
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_
 {
  uint8_t LinNumberOfChannels;
- LinChannelType_t LinChannel[] ;
+ LinChannelType_t *LinChannel ;
 }LinConfigType_t;
 # 5 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN/lin.h" 2
 # 1 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN/lin_types.h" 1

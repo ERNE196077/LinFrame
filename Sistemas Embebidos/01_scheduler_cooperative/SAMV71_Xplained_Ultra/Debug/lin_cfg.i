@@ -26766,22 +26766,22 @@ extern int _write( int file, char *ptr, int len );
 typedef struct _LinChannelType_t_{
  uint8_t LinChannelId;
  uint32_t LinChannelBaudrate;
- Pin pins[5];
 } LinChannelType_t;
 
 typedef struct _LinConfigType_t_
 {
  uint8_t LinNumberOfChannels;
- LinChannelType_t LinChannel[] ;
+ LinChannelType_t *LinChannel ;
 }LinConfigType_t;
 # 3 "C:\\Users\\ernestrc\\Documents\\ITESO\\2do_Semestre\\SW de comunicacion\\LinFrame\\Sistemas Embebidos\\01_scheduler_cooperative\\src\\ECU Abstraction\\LIN\\lin_cfg.c" 2
 
 
 
+ LinChannelType_t usart_channels[] = {{0u,115200},
+          {1u, 115200u},
+          {2u, 115200u}};
 
 LinConfigType_t LinConfiguration = {
  3,
- {{0u,115200u},
- {1u, 115200u},
- {2u, 115200u}}
+ &usart_channels
 };

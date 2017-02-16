@@ -7108,7 +7108,7 @@ LOAD C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\
                 0x00002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:0x2000
                 0x00001000                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x1000
 
-.text           0x00400000     0xa248
+.text           0x00400000     0xa280
                 0x00400000                . = ALIGN (0x4)
                 0x00400000                _sfixed = .
  *(.vectors .vectors.*)
@@ -7360,373 +7360,372 @@ LOAD C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\
                 0x0040330c                vfnSerialCtrl_Init
                 0x00403320                vfnSerialCtrl_StartTx
                 0x0040334c                vfnSerialCtrl_Transfer
- .text          0x00403394      0x3b4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
-                0x0040344c                Lin_PublishCallback
-                0x00403488                Lin_SubscribeCallback
-                0x004034bc                Lin_TransferCompleteCallback
-                0x004034e8                Lin_Init
-                0x004035d4                Lin_SendFrame
-                0x004036ec                Lin_GetSlaveResponse
+ .text          0x00403394      0x3f0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+                0x00403480                Lin_PublishCallback
+                0x004034bc                Lin_SubscribeCallback
+                0x004034f0                Lin_TransferCompleteCallback
+                0x0040352c                Lin_Init
+                0x00403610                Lin_SendFrame
+                0x00403728                Lin_GetSlaveResponse
  .text.__assert_func
-                0x00403748       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
-                0x00403748                __assert_func
+                0x00403784       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
+                0x00403784                __assert_func
  .text.fiprintf
-                0x00403784       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fiprintf.o)
-                0x00403784                fiprintf
- .text.printf   0x004037ac       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-printf.o)
-                0x004037ac                printf
- .text.putchar  0x004037d4       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putchar.o)
-                0x004037d4                putchar
- .text.setvbuf  0x004037e4       0xfc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-setvbuf.o)
-                0x004037e4                setvbuf
+                0x004037c0       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fiprintf.o)
+                0x004037c0                fiprintf
+ .text.printf   0x004037e8       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-printf.o)
+                0x004037e8                printf
+ .text.putchar  0x00403810       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putchar.o)
+                0x00403810                putchar
+ .text.setvbuf  0x00403820       0xfc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-setvbuf.o)
+                0x00403820                setvbuf
  .text.__sprint_r.part.0
-                0x004038e0       0x78 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x0040391c       0x78 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
  .text.__sprint_r
-                0x00403958       0x18 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
-                0x00403958                __sprint_r
+                0x00403994       0x18 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x00403994                __sprint_r
  .text._vfiprintf_r
-                0x00403970      0xbf4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
-                0x00403970                _vfiprintf_r
+                0x004039ac      0xbf4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x004039ac                _vfiprintf_r
  .text.__sbprintf
-                0x00404564       0x80 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x004045a0       0x80 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
  .text._vfprintf_r
-                0x004045e4     0x1554 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
-                0x004045e4                _vfprintf_r
+                0x00404620     0x1554 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+                0x00404620                _vfprintf_r
  .text.__sbprintf
-                0x00405b38       0x80 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+                0x00405b74       0x80 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
  .text.__swsetup_r
-                0x00405bb8       0xc4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wsetup.o)
-                0x00405bb8                __swsetup_r
- .text.abort    0x00405c7c       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-abort.o)
-                0x00405c7c                abort
- .text.quorem   0x00405c8c      0x140 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
- *fill*         0x00405dcc        0x4 
- .text._dtoa_r  0x00405dd0      0xee8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
-                0x00405dd0                _dtoa_r
+                0x00405bf4       0xc4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wsetup.o)
+                0x00405bf4                __swsetup_r
+ .text.abort    0x00405cb8       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-abort.o)
+                0x00405cb8                abort
+ .text.quorem   0x00405cc8      0x140 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x00405e08      0xee8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
+                0x00405e08                _dtoa_r
  .text.__sflush_r
-                0x00406cb8      0x148 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
-                0x00406cb8                __sflush_r
+                0x00406cf0      0x148 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
+                0x00406cf0                __sflush_r
  .text._fflush_r
-                0x00406e00       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
-                0x00406e00                _fflush_r
+                0x00406e38       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
+                0x00406e38                _fflush_r
  .text._cleanup_r
-                0x00406e2c        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
-                0x00406e2c                _cleanup_r
+                0x00406e64        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+                0x00406e64                _cleanup_r
  .text.__sinit.part.1
-                0x00406e38       0xfc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
- .text.__sinit  0x00406f34        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
-                0x00406f34                __sinit
+                0x00406e70       0xfc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+ .text.__sinit  0x00406f6c        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+                0x00406f6c                __sinit
  .text.__sfp_lock_acquire
-                0x00406f40        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
-                0x00406f40                __sfp_lock_acquire
+                0x00406f78        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+                0x00406f78                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x00406f44        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
-                0x00406f44                __sfp_lock_release
+                0x00406f7c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+                0x00406f7c                __sfp_lock_release
  .text.__fputwc
-                0x00406f48       0xb0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
-                0x00406f48                __fputwc
+                0x00406f80       0xb0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
+                0x00406f80                __fputwc
  .text._fputwc_r
-                0x00406ff8       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
-                0x00406ff8                _fputwc_r
+                0x00407030       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
+                0x00407030                _fputwc_r
  .text._malloc_trim_r
-                0x0040701c       0x9c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
-                0x0040701c                _malloc_trim_r
- .text._free_r  0x004070b8      0x1b0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
-                0x004070b8                _free_r
+                0x00407054       0x9c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
+                0x00407054                _malloc_trim_r
+ .text._free_r  0x004070f0      0x1b0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
+                0x004070f0                _free_r
  .text.__sfvwrite_r
-                0x00407268      0x324 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fvwrite.o)
-                0x00407268                __sfvwrite_r
+                0x004072a0      0x324 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fvwrite.o)
+                0x004072a0                __sfvwrite_r
  .text._fwalk_reent
-                0x0040758c       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fwalk.o)
-                0x0040758c                _fwalk_reent
+                0x004075c4       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fwalk.o)
+                0x004075c4                _fwalk_reent
  .text.__locale_charset
-                0x004075dc        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
-                0x004075dc                __locale_charset
+                0x00407614        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x00407614                __locale_charset
  .text.__locale_mb_cur_max
-                0x004075e4        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
-                0x004075e4                __locale_mb_cur_max
+                0x0040761c        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x0040761c                __locale_mb_cur_max
  .text._localeconv_r
-                0x004075f0        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
-                0x004075f0                _localeconv_r
+                0x00407628        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x00407628                _localeconv_r
  .text.__smakebuf_r
-                0x004075f8       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-makebuf.o)
-                0x004075f8                __smakebuf_r
- .text.malloc   0x004076dc       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-malloc.o)
-                0x004076dc                malloc
+                0x00407630       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-makebuf.o)
+                0x00407630                __smakebuf_r
+ .text.malloc   0x00407714       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-malloc.o)
+                0x00407714                malloc
  .text._malloc_r
-                0x004076ec      0x558 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x004076ec                _malloc_r
- .text.memchr   0x00407c44       0x90 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memchr.o)
-                0x00407c44                memchr
- .text          0x00407cd4      0x134 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memcpy.o)
-                0x00407cd4                memcpy
- .text.memmove  0x00407e08       0xc4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memmove.o)
-                0x00407e08                memmove
- .text.memset   0x00407ecc       0xa0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memset.o)
-                0x00407ecc                memset
+                0x00407724      0x558 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x00407724                _malloc_r
+ .text.memchr   0x00407c7c       0x90 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memchr.o)
+                0x00407c7c                memchr
+ .text          0x00407d0c      0x134 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memcpy.o)
+                0x00407d0c                memcpy
+ .text.memmove  0x00407e40       0xc4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memmove.o)
+                0x00407e40                memmove
+ .text.memset   0x00407f04       0xa0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memset.o)
+                0x00407f04                memset
  .text.__malloc_lock
-                0x00407f6c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
-                0x00407f6c                __malloc_lock
+                0x00407fa4        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
+                0x00407fa4                __malloc_lock
  .text.__malloc_unlock
-                0x00407f70        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
-                0x00407f70                __malloc_unlock
- .text._Balloc  0x00407f74       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x00407f74                _Balloc
- .text._Bfree   0x00407fc4       0x14 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x00407fc4                _Bfree
+                0x00407fa8        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
+                0x00407fa8                __malloc_unlock
+ .text._Balloc  0x00407fac       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00407fac                _Balloc
+ .text._Bfree   0x00407ffc       0x14 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00407ffc                _Bfree
  .text.__multadd
-                0x00407fd8       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x00407fd8                __multadd
+                0x00408010       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408010                __multadd
  .text.__hi0bits
-                0x0040805c       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x0040805c                __hi0bits
+                0x00408094       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408094                __hi0bits
  .text.__lo0bits
-                0x004080a0       0x64 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x004080a0                __lo0bits
- .text.__i2b    0x00408104       0x14 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x00408104                __i2b
+                0x004080d8       0x64 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x004080d8                __lo0bits
+ .text.__i2b    0x0040813c       0x14 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x0040813c                __i2b
  .text.__multiply
-                0x00408118      0x144 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x00408118                __multiply
+                0x00408150      0x144 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408150                __multiply
  .text.__pow5mult
-                0x0040825c       0xa0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x0040825c                __pow5mult
+                0x00408294       0xa0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408294                __pow5mult
  .text.__lshift
-                0x004082fc       0xb4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x004082fc                __lshift
- .text.__mcmp   0x004083b0       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x004083b0                __mcmp
- .text.__mdiff  0x004083f8       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x004083f8                __mdiff
- .text.__d2b    0x004084dc       0xb0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x004084dc                __d2b
- .text._putc_r  0x0040858c       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putc.o)
-                0x0040858c                _putc_r
+                0x00408334       0xb4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408334                __lshift
+ .text.__mcmp   0x004083e8       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x004083e8                __mcmp
+ .text.__mdiff  0x00408430       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408430                __mdiff
+ .text.__d2b    0x00408514       0xb0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x00408514                __d2b
+ .text._putc_r  0x004085c4       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putc.o)
+                0x004085c4                _putc_r
  .text._realloc_r
-                0x004085e4      0x3f0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reallocr.o)
-                0x004085e4                _realloc_r
+                0x0040861c      0x3f0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reallocr.o)
+                0x0040861c                _realloc_r
  .text.__fpclassifyd
-                0x004089d4       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-s_fpclassify.o)
-                0x004089d4                __fpclassifyd
- .text._sbrk_r  0x00408a18       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-sbrkr.o)
-                0x00408a18                _sbrk_r
+                0x00408a0c       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-s_fpclassify.o)
+                0x00408a0c                __fpclassifyd
+ .text._sbrk_r  0x00408a50       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-sbrkr.o)
+                0x00408a50                _sbrk_r
  .text._raise_r
-                0x00408a3c       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
-                0x00408a3c                _raise_r
- .text.raise    0x00408a94       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
-                0x00408a94                raise
- .text._kill_r  0x00408aa4       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
-                0x00408aa4                _kill_r
+                0x00408a74       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
+                0x00408a74                _raise_r
+ .text.raise    0x00408acc       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
+                0x00408acc                raise
+ .text._kill_r  0x00408adc       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
+                0x00408adc                _kill_r
  .text._getpid_r
-                0x00408acc        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
-                0x00408acc                _getpid_r
- .text.__sread  0x00408ad0       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
-                0x00408ad0                __sread
+                0x00408b04        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
+                0x00408b04                _getpid_r
+ .text.__sread  0x00408b08       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
+                0x00408b08                __sread
  .text.__swrite
-                0x00408af4       0x38 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
-                0x00408af4                __swrite
- .text.__sseek  0x00408b2c       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
-                0x00408b2c                __sseek
+                0x00408b2c       0x38 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
+                0x00408b2c                __swrite
+ .text.__sseek  0x00408b64       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
+                0x00408b64                __sseek
  .text.__sclose
-                0x00408b50        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
-                0x00408b50                __sclose
- .text.strlen   0x00408b58       0x5c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-strlen.o)
-                0x00408b58                strlen
+                0x00408b88        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
+                0x00408b88                __sclose
+ .text.strlen   0x00408b90       0x5c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-strlen.o)
+                0x00408b90                strlen
  .text.__swbuf_r
-                0x00408bb4       0xa8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wbuf.o)
-                0x00408bb4                __swbuf_r
+                0x00408bec       0xa8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wbuf.o)
+                0x00408bec                __swbuf_r
  .text._wcrtomb_r
-                0x00408c5c       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wcrtomb.o)
-                0x00408c5c                _wcrtomb_r
+                0x00408c94       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wcrtomb.o)
+                0x00408c94                _wcrtomb_r
  .text.__ascii_wctomb
-                0x00408cb0       0x18 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
-                0x00408cb0                __ascii_wctomb
+                0x00408ce8       0x18 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
+                0x00408ce8                __ascii_wctomb
  .text._write_r
-                0x00408cc8       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-writer.o)
-                0x00408cc8                _write_r
+                0x00408d00       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-writer.o)
+                0x00408d00                _write_r
  .text._calloc_r
-                0x00408cf0       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-callocr.o)
-                0x00408cf0                _calloc_r
+                0x00408d28       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-callocr.o)
+                0x00408d28                _calloc_r
  .text._close_r
-                0x00408d50       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-closer.o)
-                0x00408d50                _close_r
+                0x00408d88       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-closer.o)
+                0x00408d88                _close_r
  .text._fclose_r
-                0x00408d74       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fclose.o)
-                0x00408d74                _fclose_r
+                0x00408dac       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fclose.o)
+                0x00408dac                _fclose_r
  .text._fstat_r
-                0x00408df8       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fstatr.o)
-                0x00408df8                _fstat_r
+                0x00408e30       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fstatr.o)
+                0x00408e30                _fstat_r
  .text._isatty_r
-                0x00408e20       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-isattyr.o)
-                0x00408e20                _isatty_r
+                0x00408e58       0x24 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-isattyr.o)
+                0x00408e58                _isatty_r
  .text._lseek_r
-                0x00408e44       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-lseekr.o)
-                0x00408e44                _lseek_r
- .text._read_r  0x00408e6c       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-readr.o)
-                0x00408e6c                _read_r
- .text          0x00408e94      0x370 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_addsubdf3.o)
-                0x00408e94                __aeabi_drsub
-                0x00408e9c                __aeabi_dsub
-                0x00408e9c                __subdf3
-                0x00408ea0                __aeabi_dadd
-                0x00408ea0                __adddf3
-                0x00409118                __floatunsidf
-                0x00409118                __aeabi_ui2d
-                0x00409138                __floatsidf
-                0x00409138                __aeabi_i2d
-                0x0040915c                __aeabi_f2d
-                0x0040915c                __extendsfdf2
-                0x00409198                __floatundidf
-                0x00409198                __aeabi_ul2d
-                0x004091a8                __floatdidf
-                0x004091a8                __aeabi_l2d
- .text          0x00409204      0x424 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_muldivdf3.o)
-                0x00409204                __aeabi_dmul
-                0x00409204                __muldf3
-                0x00409458                __divdf3
-                0x00409458                __aeabi_ddiv
- .text          0x00409628      0x110 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_cmpdf2.o)
-                0x00409628                __gtdf2
-                0x00409628                __gedf2
-                0x00409630                __ltdf2
-                0x00409630                __ledf2
-                0x00409638                __nedf2
-                0x00409638                __eqdf2
-                0x00409638                __cmpdf2
-                0x004096b4                __aeabi_cdrcmple
-                0x004096c4                __aeabi_cdcmpeq
-                0x004096c4                __aeabi_cdcmple
-                0x004096d4                __aeabi_dcmpeq
-                0x004096e8                __aeabi_dcmplt
-                0x004096fc                __aeabi_dcmple
-                0x00409710                __aeabi_dcmpge
-                0x00409724                __aeabi_dcmpgt
- .text          0x00409738       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_fixdfsi.o)
-                0x00409738                __aeabi_d2iz
-                0x00409738                __fixdfsi
- .text          0x00409788       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_aeabi_uldivmod.o)
-                0x00409788                __aeabi_uldivmod
- .text          0x004097b8       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(bpabi.o)
-                0x004097b8                __gnu_ldivmod_helper
-                0x004097e8                __gnu_uldivmod_helper
- .text          0x00409818        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_dvmd_tls.o)
-                0x00409818                __aeabi_idiv0
-                0x00409818                __aeabi_ldiv0
- .text          0x0040981c      0x284 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
-                0x0040981c                __divdi3
- .text          0x00409aa0      0x248 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
-                0x00409aa0                __udivdi3
+                0x00408e7c       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-lseekr.o)
+                0x00408e7c                _lseek_r
+ .text._read_r  0x00408ea4       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-readr.o)
+                0x00408ea4                _read_r
+ .text          0x00408ecc      0x370 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_addsubdf3.o)
+                0x00408ecc                __aeabi_drsub
+                0x00408ed4                __aeabi_dsub
+                0x00408ed4                __subdf3
+                0x00408ed8                __aeabi_dadd
+                0x00408ed8                __adddf3
+                0x00409150                __floatunsidf
+                0x00409150                __aeabi_ui2d
+                0x00409170                __floatsidf
+                0x00409170                __aeabi_i2d
+                0x00409194                __aeabi_f2d
+                0x00409194                __extendsfdf2
+                0x004091d0                __floatundidf
+                0x004091d0                __aeabi_ul2d
+                0x004091e0                __floatdidf
+                0x004091e0                __aeabi_l2d
+ .text          0x0040923c      0x424 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_muldivdf3.o)
+                0x0040923c                __aeabi_dmul
+                0x0040923c                __muldf3
+                0x00409490                __divdf3
+                0x00409490                __aeabi_ddiv
+ .text          0x00409660      0x110 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_cmpdf2.o)
+                0x00409660                __gtdf2
+                0x00409660                __gedf2
+                0x00409668                __ltdf2
+                0x00409668                __ledf2
+                0x00409670                __nedf2
+                0x00409670                __eqdf2
+                0x00409670                __cmpdf2
+                0x004096ec                __aeabi_cdrcmple
+                0x004096fc                __aeabi_cdcmpeq
+                0x004096fc                __aeabi_cdcmple
+                0x0040970c                __aeabi_dcmpeq
+                0x00409720                __aeabi_dcmplt
+                0x00409734                __aeabi_dcmple
+                0x00409748                __aeabi_dcmpge
+                0x0040975c                __aeabi_dcmpgt
+ .text          0x00409770       0x50 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_arm_fixdfsi.o)
+                0x00409770                __aeabi_d2iz
+                0x00409770                __fixdfsi
+ .text          0x004097c0       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_aeabi_uldivmod.o)
+                0x004097c0                __aeabi_uldivmod
+ .text          0x004097f0       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(bpabi.o)
+                0x004097f0                __gnu_ldivmod_helper
+                0x00409820                __gnu_uldivmod_helper
+ .text          0x00409850        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_dvmd_tls.o)
+                0x00409850                __aeabi_idiv0
+                0x00409850                __aeabi_ldiv0
+ .text          0x00409854      0x284 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
+                0x00409854                __divdi3
+ .text          0x00409ad8      0x248 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
+                0x00409ad8                __udivdi3
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
- .rodata        0x00409ce8       0xb4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
- .rodata        0x00409d9c       0x19 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
- *fill*         0x00409db5        0x3 
- .rodata        0x00409db8        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
-                0x00409db8                EmptyTask
- .rodata        0x00409dc4       0xf7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
- *fill*         0x00409ebb        0x1 
- .rodata        0x00409ebc       0x1c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
- .rodata        0x00409ed8       0xd4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
- .rodata        0x00409fac       0xb1 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
- *fill*         0x0040a05d        0x3 
+ .rodata        0x00409d20       0xb4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
+ .rodata        0x00409dd4       0x19 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ *fill*         0x00409ded        0x3 
+ .rodata        0x00409df0        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+                0x00409df0                EmptyTask
+ .rodata        0x00409dfc       0xf7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ *fill*         0x00409ef3        0x1 
+ .rodata        0x00409ef4       0x1c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
+ .rodata        0x00409f10       0xd4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .rodata        0x00409fe4       0xb1 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
+ *fill*         0x0040a095        0x3 
  .rodata.str1.4
-                0x0040a060       0x3f e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
+                0x0040a098       0x3f e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
                                  0x43 (size before relaxing)
- *fill*         0x0040a09f        0x1 
+ *fill*         0x0040a0d7        0x1 
  .rodata.str1.4
-                0x0040a0a0        0x2 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
- *fill*         0x0040a0a2        0x2 
+                0x0040a0d8        0x2 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
+ *fill*         0x0040a0da        0x2 
  .rodata.zeroes.6869
-                0x0040a0a4       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x0040a0dc       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
  .rodata.str1.4
-                0x0040a0b4       0x2f e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
- *fill*         0x0040a0e3        0x1 
+                0x0040a0ec       0x2f e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+ *fill*         0x0040a11b        0x1 
  .rodata.blanks.6868
-                0x0040a0e4       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+                0x0040a11c       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
  .rodata.zeroes.6926
-                0x0040a0f4       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+                0x0040a12c       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x0040a104       0x12 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+                0x0040a13c       0x12 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x0040a116        0x2 
+ *fill*         0x0040a14e        0x2 
  .rodata.blanks.6925
-                0x0040a118       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+                0x0040a150       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x0040a128       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
+                0x0040a160       0x10 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
  .rodata.str1.4
-                0x0040a138        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x0040a170        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
                                  0x12 (size before relaxing)
- *fill*         0x0040a144        0x4 
+ *fill*         0x0040a17c        0x4 
  .rodata.__mprec_tens
-                0x0040a148       0xc8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x0040a148                __mprec_tens
+                0x0040a180       0xc8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x0040a180                __mprec_tens
  .rodata.p05.5302
-                0x0040a210        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
- *fill*         0x0040a21c        0x4 
+                0x0040a248        0xc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+ *fill*         0x0040a254        0x4 
  .rodata.__mprec_bigtens
-                0x0040a220       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
-                0x0040a220                __mprec_bigtens
+                0x0040a258       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+                0x0040a258                __mprec_bigtens
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0040a248                . = ALIGN (0x4)
+                0x0040a280                . = ALIGN (0x4)
  *(.init)
-                0x0040a248                . = ALIGN (0x4)
-                0x0040a248                __preinit_array_start = .
+                0x0040a280                . = ALIGN (0x4)
+                0x0040a280                __preinit_array_start = .
  *(.preinit_array)
-                0x0040a248                __preinit_array_end = .
-                0x0040a248                . = ALIGN (0x4)
-                0x0040a248                __init_array_start = .
+                0x0040a280                __preinit_array_end = .
+                0x0040a280                . = ALIGN (0x4)
+                0x0040a280                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
-                0x0040a248                __init_array_end = .
-                0x0040a248                . = ALIGN (0x4)
+                0x0040a280                __init_array_end = .
+                0x0040a280                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0040a248                . = ALIGN (0x4)
+                0x0040a280                . = ALIGN (0x4)
  *(.fini)
-                0x0040a248                . = ALIGN (0x4)
-                0x0040a248                __fini_array_start = .
+                0x0040a280                . = ALIGN (0x4)
+                0x0040a280                __fini_array_start = .
  *(.fini_array)
  *(SORT(.fini_array.*))
-                0x0040a248                __fini_array_end = .
+                0x0040a280                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x0040a248                . = ALIGN (0x4)
-                0x0040a248                _efixed = .
-                0x0040a248                PROVIDE (__exidx_start, .)
+                0x0040a280                . = ALIGN (0x4)
+                0x0040a280                _efixed = .
+                0x0040a280                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x0040a248        0x0
+.vfp11_veneer   0x0040a280        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0040a248        0x0
+.v4_bx          0x0040a280        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0040a248        0x0
+.iplt           0x0040a280        0x0
  .iplt          0x00000000        0x0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
 
-.igot.plt       0x0040a248        0x0
+.igot.plt       0x0040a280        0x0
  .igot.plt      0x00000000        0x0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
 
-.ARM.exidx      0x0040a248        0x8
+.ARM.exidx      0x0040a280        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0040a248        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
- .ARM.exidx     0x0040a250        0x0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x0040a280        0x8 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0040a288        0x0 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x0040a250                PROVIDE (__exidx_end, .)
+                0x0040a288                PROVIDE (__exidx_end, .)
 
-.rel.dyn        0x0040a250        0x0
+.rel.dyn        0x0040a288        0x0
  .rel.iplt      0x00000000        0x0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
-                0x0040a250                . = ALIGN (0x4)
-                0x0040a250                _etext = .
+                0x0040a288                . = ALIGN (0x4)
+                0x0040a288                _etext = .
 
-.relocate       0x20400000      0xb24 load address 0x0040a250
+.relocate       0x20400000      0xa74 load address 0x0040a288
                 0x20400000                . = ALIGN (0x4)
                 0x20400000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -7743,123 +7742,124 @@ LOAD C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\
  .data          0x204000d4       0xdf C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
                 0x204000d4                u8SerialCtrl_TxData
  *fill*         0x204001b3        0x1 
- .data          0x204001b4       0xd0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
-                0x204001b4                LinConfiguration
- *fill*         0x20400284        0x4 
+ .data          0x204001b4       0x20 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+                0x204001b4                usart_channels
+                0x204001cc                LinConfiguration
+ *fill*         0x204001d4        0x4 
  .data.impure_data
-                0x20400288      0x428 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
+                0x204001d8      0x428 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
  .data._impure_ptr
-                0x204006b0        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
-                0x204006b0                _impure_ptr
- .data.lconv    0x204006b4       0x38 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x20400600        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-impure.o)
+                0x20400600                _impure_ptr
+ .data.lconv    0x20400604       0x38 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
  .data.lc_ctype_charset
-                0x204006ec       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x2040063c       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
  .data.__mb_cur_max
-                0x2040070c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
-                0x2040070c                __mb_cur_max
+                0x2040065c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+                0x2040065c                __mb_cur_max
  .data.__malloc_av_
-                0x20400710      0x408 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400710                __malloc_av_
+                0x20400660      0x408 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400660                __malloc_av_
  .data.__malloc_trim_threshold
-                0x20400b18        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b18                __malloc_trim_threshold
+                0x20400a68        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400a68                __malloc_trim_threshold
  .data.__malloc_sbrk_base
-                0x20400b1c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b1c                __malloc_sbrk_base
+                0x20400a6c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400a6c                __malloc_sbrk_base
  .data.__wctomb
-                0x20400b20        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
-                0x20400b20                __wctomb
-                0x20400b24                . = ALIGN (0x4)
-                0x20400b24                _erelocate = .
+                0x20400a70        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
+                0x20400a70                __wctomb
+                0x20400a74                . = ALIGN (0x4)
+                0x20400a74                _erelocate = .
 
-.bss            0x20400b24      0x118 load address 0x0040ad74
-                0x20400b24                . = ALIGN (0x4)
-                0x20400b24                _sbss = .
-                0x20400b24                _szero = .
+.bss            0x20400a74      0x118 load address 0x0040acfc
+                0x20400a74                . = ALIGN (0x4)
+                0x20400a74                _sbss = .
+                0x20400a74                _szero = .
  *(.bss .bss.*)
- .bss           0x20400b24        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
- .bss           0x20400b30        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
- .bss           0x20400b3c        0x6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
- *fill*         0x20400b42        0x2 
- .bss           0x20400b44        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
-                0x20400b4c                pfctnSysTick
- .bss           0x20400b50        0x7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
- *fill*         0x20400b57        0x1 
- .bss           0x20400b58        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .bss           0x20400a74        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ .bss           0x20400a80        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+ .bss           0x20400a8c        0x6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ *fill*         0x20400a92        0x2 
+ .bss           0x20400a94        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
+                0x20400a9c                pfctnSysTick
+ .bss           0x20400aa0        0x7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
+ *fill*         0x20400aa7        0x1 
+ .bss           0x20400aa8        0xc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
  .bss.__malloc_max_total_mem
-                0x20400b64        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b64                __malloc_max_total_mem
+                0x20400ab4        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400ab4                __malloc_max_total_mem
  .bss.__malloc_max_sbrked_mem
-                0x20400b68        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b68                __malloc_max_sbrked_mem
+                0x20400ab8        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400ab8                __malloc_max_sbrked_mem
  .bss.__malloc_top_pad
-                0x20400b6c        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b6c                __malloc_top_pad
+                0x20400abc        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400abc                __malloc_top_pad
  .bss.__malloc_current_mallinfo
-                0x20400b70       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
-                0x20400b70                __malloc_current_mallinfo
+                0x20400ac0       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+                0x20400ac0                __malloc_current_mallinfo
  *(COMMON)
- COMMON         0x20400b98        0xd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
-                0x20400b98                u8_50ms_Counter
-                0x20400b99                gu8Scheduler_Status
-                0x20400b9a                TaskScheduler_Task_ID_Running
-                0x20400b9c                ptrTaskScheduler_Task_Running
-                0x20400ba0                u8_10ms_Counter
-                0x20400ba1                u8_100ms_Counter
-                0x20400ba2                gu8Scheduler_Counter
-                0x20400ba3                TaskScheduler_Task_ID_Activated
-                0x20400ba4                TasksScheduler_Task_ID_Backup
- *fill*         0x20400ba5        0x3 
- COMMON         0x20400ba8        0x4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
-                0x20400ba8                uart_callback
- COMMON         0x20400bac       0x24 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
-                0x20400bac                USART2_transmitReadyCallback
-                0x20400bb0                USART2_receiveReadyCallback
-                0x20400bb4                USART1_receiveReadyCallback
-                0x20400bb8                USART0_linTransferCompleteCallback
-                0x20400bbc                USART1_linTransferCompleteCallback
-                0x20400bc0                USART1_transmitReadyCallback
-                0x20400bc4                USART0_receiveReadyCallback
-                0x20400bc8                USART2_linTransferCompleteCallback
-                0x20400bcc                USART0_transmitReadyCallback
- COMMON         0x20400bd0       0x50 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
-                0x20400bd0                pu8SerialCtrl_RxDataPtr
-                0x20400bd4                u16SerialCtrl_RxLength
-                0x20400bd6                u16SerialCtrl_TxLength
-                0x20400bd8                pu8SerialCtrl_ReadTxDataPtr
-                0x20400bdc                pu8SerialCtrl_ReadRxDataPtr
-                0x20400be0                u8SerialCtrl_RxData
- COMMON         0x20400c20       0x17 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
-                0x20400c20                receiveHold
-                0x20400c28                bufferPtr
-                0x20400c34                channelTransferState
- *fill*         0x20400c37        0x1 
- COMMON         0x20400c38        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reent.o)
-                0x20400c38                errno
-                0x20400c3c                . = ALIGN (0x4)
-                0x20400c3c                _ebss = .
-                0x20400c3c                _ezero = .
+ COMMON         0x20400ae8        0xd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+                0x20400ae8                u8_50ms_Counter
+                0x20400ae9                gu8Scheduler_Status
+                0x20400aea                TaskScheduler_Task_ID_Running
+                0x20400aec                ptrTaskScheduler_Task_Running
+                0x20400af0                u8_10ms_Counter
+                0x20400af1                u8_100ms_Counter
+                0x20400af2                gu8Scheduler_Counter
+                0x20400af3                TaskScheduler_Task_ID_Activated
+                0x20400af4                TasksScheduler_Task_ID_Backup
+ *fill*         0x20400af5        0x3 
+ COMMON         0x20400af8        0x4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
+                0x20400af8                uart_callback
+ COMMON         0x20400afc       0x24 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
+                0x20400afc                USART2_transmitReadyCallback
+                0x20400b00                USART2_receiveReadyCallback
+                0x20400b04                USART1_receiveReadyCallback
+                0x20400b08                USART0_linTransferCompleteCallback
+                0x20400b0c                USART1_linTransferCompleteCallback
+                0x20400b10                USART1_transmitReadyCallback
+                0x20400b14                USART0_receiveReadyCallback
+                0x20400b18                USART2_linTransferCompleteCallback
+                0x20400b1c                USART0_transmitReadyCallback
+ COMMON         0x20400b20       0x50 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
+                0x20400b20                pu8SerialCtrl_RxDataPtr
+                0x20400b24                u16SerialCtrl_RxLength
+                0x20400b26                u16SerialCtrl_TxLength
+                0x20400b28                pu8SerialCtrl_ReadTxDataPtr
+                0x20400b2c                pu8SerialCtrl_ReadRxDataPtr
+                0x20400b30                u8SerialCtrl_RxData
+ COMMON         0x20400b70       0x17 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+                0x20400b70                receiveHold
+                0x20400b78                bufferPtr
+                0x20400b84                channelTransferState
+ *fill*         0x20400b87        0x1 
+ COMMON         0x20400b88        0x4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reent.o)
+                0x20400b88                errno
+                0x20400b8c                . = ALIGN (0x4)
+                0x20400b8c                _ebss = .
+                0x20400b8c                _ezero = .
 
-.stack          0x20400c3c     0x2004 load address 0x0040ae8c
-                0x20400c40                . = ALIGN (0x8)
- *fill*         0x20400c3c        0x4 
-                0x20400c40                _sstack = .
-                0x20402c40                . = (. + STACK_SIZE)
- *fill*         0x20400c40     0x2000 
-                0x20402c40                . = ALIGN (0x8)
-                0x20402c40                _estack = .
+.stack          0x20400b8c     0x2004 load address 0x0040ae14
+                0x20400b90                . = ALIGN (0x8)
+ *fill*         0x20400b8c        0x4 
+                0x20400b90                _sstack = .
+                0x20402b90                . = (. + STACK_SIZE)
+ *fill*         0x20400b90     0x2000 
+                0x20402b90                . = ALIGN (0x8)
+                0x20402b90                _estack = .
 
-.heap           0x20402c40     0x1000 load address 0x0040ce90
-                0x20402c40                . = ALIGN (0x8)
-                0x20402c40                _sheap = .
-                0x20403c40                . = (. + HEAP_SIZE)
- *fill*         0x20402c40     0x1000 
-                0x20403c40                . = ALIGN (0x8)
-                0x20403c40                _eheap = .
-                0x20403c40                . = ALIGN (0x4)
-                0x20403c40                _end = .
+.heap           0x20402b90     0x1000 load address 0x0040ce18
+                0x20402b90                . = ALIGN (0x8)
+                0x20402b90                _sheap = .
+                0x20403b90                . = (. + HEAP_SIZE)
+ *fill*         0x20402b90     0x1000 
+                0x20403b90                . = ALIGN (0x8)
+                0x20403b90                _eheap = .
+                0x20403b90                . = ALIGN (0x4)
+                0x20403b90                _end = .
                 0x2045ffff                _ram_end_ = ((ORIGIN (ram) + 0x60000) - 0x1)
-                0x20403c40                _sdram_lma = .
+                0x20403b90                _sdram_lma = .
 
 sdram_region
  *(sdram_region)
@@ -7868,53 +7868,53 @@ LOAD e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m
 LOAD e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libm.a
 OUTPUT(tau.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xb046
- .debug_info    0x00000000      0xb3f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
- .debug_info    0x00000b3f      0x515 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
- .debug_info    0x00001054      0x4cc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
- .debug_info    0x00001520      0x4db C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
- .debug_info    0x000019fb      0x8cc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
- .debug_info    0x000022c7      0x1be C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
- .debug_info    0x00002485      0x9c8 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
- .debug_info    0x00002e4d      0x4f5 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
- .debug_info    0x00003342     0x14dc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
- .debug_info    0x0000481e      0x6f3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_info    0x00004f11      0x1fd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_info    0x0000510e      0x78b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_info    0x00005899      0x58b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
- .debug_info    0x00005e24      0xa00 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_info    0x00006824      0x327 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_info    0x00006b4b      0x59c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_info    0x000070e7      0x88b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
- .debug_info    0x00007972     0x124a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
- .debug_info    0x00008bbc      0x1a2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
- .debug_info    0x00008d5e      0x9b3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
- .debug_info    0x00009711     0x128a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_info    0x0000a99b      0x6ab C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+.debug_info     0x00000000     0xa631
+ .debug_info    0x00000000      0xb1a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
+ .debug_info    0x00000b1a      0x515 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
+ .debug_info    0x0000102f      0x4cc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ .debug_info    0x000014fb      0x4db C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+ .debug_info    0x000019d6      0x8cc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
+ .debug_info    0x000022a2      0x1be C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
+ .debug_info    0x00002460      0x9c8 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
+ .debug_info    0x00002e28      0x4f5 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
+ .debug_info    0x0000331d     0x14dc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ .debug_info    0x000047f9      0x6f3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
+ .debug_info    0x00004eec      0x1fd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_info    0x000050e9      0x78b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_info    0x00005874      0x58b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
+ .debug_info    0x00005dff      0xa00 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_info    0x000067ff      0x327 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_info    0x00006b26      0x59c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_info    0x000070c2      0x88b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
+ .debug_info    0x0000794d     0x124a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
+ .debug_info    0x00008b97      0x1a2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
+ .debug_info    0x00008d39      0x9b3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
+ .debug_info    0x000096ec      0xdaf C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_info    0x0000a49b      0x196 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
 
-.debug_abbrev   0x00000000     0x2059
- .debug_abbrev  0x00000000      0x1b1 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
- .debug_abbrev  0x000001b1      0x127 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
- .debug_abbrev  0x000002d8      0x15e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
- .debug_abbrev  0x00000436      0x1b9 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
- .debug_abbrev  0x000005ef      0x1a0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
- .debug_abbrev  0x0000078f       0x8f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
- .debug_abbrev  0x0000081e      0x1a0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
- .debug_abbrev  0x000009be      0x12f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
- .debug_abbrev  0x00000aed      0x26e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
- .debug_abbrev  0x00000d5b      0x113 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_abbrev  0x00000e6e       0xdf C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_abbrev  0x00000f4d      0x1ce C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_abbrev  0x0000111b      0x193 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
- .debug_abbrev  0x000012ae      0x19d C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_abbrev  0x0000144b      0x144 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_abbrev  0x0000158f      0x152 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_abbrev  0x000016e1      0x1b2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
- .debug_abbrev  0x00001893      0x28a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
- .debug_abbrev  0x00001b1d       0xb6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
- .debug_abbrev  0x00001bd3      0x17e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
- .debug_abbrev  0x00001d51      0x21b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_abbrev  0x00001f6c       0xed C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+.debug_abbrev   0x00000000     0x1fdc
+ .debug_abbrev  0x00000000      0x1aa C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
+ .debug_abbrev  0x000001aa      0x127 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
+ .debug_abbrev  0x000002d1      0x15e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ .debug_abbrev  0x0000042f      0x1b9 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+ .debug_abbrev  0x000005e8      0x1a0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
+ .debug_abbrev  0x00000788       0x8f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
+ .debug_abbrev  0x00000817      0x1a0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
+ .debug_abbrev  0x000009b7      0x12f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
+ .debug_abbrev  0x00000ae6      0x26e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ .debug_abbrev  0x00000d54      0x113 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
+ .debug_abbrev  0x00000e67       0xdf C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_abbrev  0x00000f46      0x1ce C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_abbrev  0x00001114      0x193 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
+ .debug_abbrev  0x000012a7      0x19d C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_abbrev  0x00001444      0x144 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_abbrev  0x00001588      0x152 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_abbrev  0x000016da      0x1b2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
+ .debug_abbrev  0x0000188c      0x28a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
+ .debug_abbrev  0x00001b16       0xb6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
+ .debug_abbrev  0x00001bcc      0x17e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
+ .debug_abbrev  0x00001d4a      0x1eb C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_abbrev  0x00001f35       0xa7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
 
 .debug_aranges  0x00000000      0x2b8
  .debug_aranges
@@ -7962,7 +7962,7 @@ OUTPUT(tau.elf elf32-littlearm)
  .debug_aranges
                 0x000002a0       0x18 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
 
-.debug_macro    0x00000000    0x2e33b
+.debug_macro    0x00000000    0x2e33d
  .debug_macro   0x00000000     0x1354 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
  .debug_macro   0x00001354       0x22 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
  .debug_macro   0x00001376       0x44 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
@@ -8176,13 +8176,13 @@ OUTPUT(tau.elf elf32-littlearm)
  .debug_macro   0x000299b8      0xea3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
  .debug_macro   0x0002a85b       0x40 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
  .debug_macro   0x0002a89b     0x12ed C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
- .debug_macro   0x0002bb88     0x131a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_macro   0x0002cea2      0x10e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_macro   0x0002cfb0       0x7f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_macro   0x0002d02f       0x4a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_macro   0x0002d079     0x12c2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+ .debug_macro   0x0002bb88     0x131b C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_macro   0x0002cea3      0x10e C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_macro   0x0002cfb1       0x7f C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_macro   0x0002d030       0x4a C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_macro   0x0002d07a     0x12c3 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
 
-.debug_line     0x00000000    0x174a3
+.debug_line     0x00000000    0x174a9
  .debug_line    0x00000000     0x177c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
  .debug_line    0x0000177c      0xc58 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_line    0x000023d4     0x12de C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
@@ -8203,54 +8203,54 @@ OUTPUT(tau.elf elf32-littlearm)
  .debug_line    0x00011a52     0x10f5 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
  .debug_line    0x00012b47      0xf54 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
  .debug_line    0x00013a9b     0x13c2 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
- .debug_line    0x00014e5d     0x1396 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_line    0x000161f3     0x12b0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+ .debug_line    0x00014e5d     0x139c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_line    0x000161f9     0x12b0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
 
-.debug_str      0x00000000    0x7f6c9
- .debug_str     0x00000000    0x7bc22 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
-                              0x7c1db (size before relaxing)
- .debug_str     0x0007bc22      0x3db C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
+.debug_str      0x00000000    0x7f6d3
+ .debug_str     0x00000000    0x7bc1d C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
+                              0x7c1d6 (size before relaxing)
+ .debug_str     0x0007bc1d      0x3db C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
                               0x6e28f (size before relaxing)
- .debug_str     0x0007bffd      0x686 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ .debug_str     0x0007bff8      0x686 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
                               0x7bb32 (size before relaxing)
- .debug_str     0x0007c683      0x461 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
+ .debug_str     0x0007c67e      0x461 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_scheduler.o
                               0x715dc (size before relaxing)
- .debug_str     0x0007cae4      0x4aa C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
+ .debug_str     0x0007cadf      0x4aa C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt_ctrl.o
                               0x715c4 (size before relaxing)
- .debug_str     0x0007cf8e       0xfc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
+ .debug_str     0x0007cf89       0xfc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\app_tasks.o
                               0x7113f (size before relaxing)
- .debug_str     0x0007d08a      0x618 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
+ .debug_str     0x0007d085      0x618 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\startup_sam.o
                               0x6e654 (size before relaxing)
- .debug_str     0x0007d6a2       0xbd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
+ .debug_str     0x0007d69d       0xbd C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
                               0x7b70f (size before relaxing)
- .debug_str     0x0007d75f      0x7e9 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ .debug_str     0x0007d75a      0x7e9 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\dbg_console.o
                               0x7c045 (size before relaxing)
- .debug_str     0x0007df48       0xb0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
+ .debug_str     0x0007df43       0xb0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led.o
                               0x7b8af (size before relaxing)
- .debug_str     0x0007dff8       0xf7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_str     0x0007dff3       0xf7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\wdt.o
                               0x75de6 (size before relaxing)
- .debug_str     0x0007e0ef      0x2c7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_str     0x0007e0ea      0x2c7 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pmc.o
                               0x761b9 (size before relaxing)
- .debug_str     0x0007e3b6      0x23c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
+ .debug_str     0x0007e3b1      0x23c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\uart.o
                               0x75fa7 (size before relaxing)
- .debug_str     0x0007e5f2      0x1c8 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_str     0x0007e5ed      0x1c8 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\pio.o
                               0x76203 (size before relaxing)
- .debug_str     0x0007e7ba      0x161 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_str     0x0007e7b5      0x161 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\mpu.o
                               0x75ebd (size before relaxing)
- .debug_str     0x0007e91b       0x8c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_str     0x0007e916       0x8c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\exceptions.o
                               0x75f64 (size before relaxing)
- .debug_str     0x0007e9a7       0xfc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
+ .debug_str     0x0007e9a2       0xfc C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\systick.o
                               0x71585 (size before relaxing)
- .debug_str     0x0007eaa3      0x441 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
+ .debug_str     0x0007ea9e      0x441 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
                               0x766c7 (size before relaxing)
- .debug_str     0x0007eee4       0xee C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
+ .debug_str     0x0007eedf       0xee C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
                               0x712f0 (size before relaxing)
- .debug_str     0x0007efd2      0x278 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
+ .debug_str     0x0007efcd      0x278 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
                               0x7bf46 (size before relaxing)
- .debug_str     0x0007f24a      0x3e6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
-                              0x7c323 (size before relaxing)
- .debug_str     0x0007f630       0x99 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
-                              0x7b969 (size before relaxing)
+ .debug_str     0x0007f245      0x3e6 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+                              0x7c044 (size before relaxing)
+ .debug_str     0x0007f62b       0xa8 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin_cfg.o
+                              0x7b66b (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
@@ -8436,7 +8436,7 @@ OUTPUT(tau.elf elf32-littlearm)
  .ARM.attributes
                 0x00000f3d       0x33 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
 
-.debug_frame    0x00000000     0x2f20
+.debug_frame    0x00000000     0x2f48
  .debug_frame   0x00000000       0x54 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\main.o
  .debug_frame   0x00000054       0xc0 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_frame   0x00000114      0x1b4 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\syscalls.o
@@ -8457,53 +8457,53 @@ OUTPUT(tau.elf elf32-littlearm)
  .debug_frame   0x000014fc      0x514 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\usart.o
  .debug_frame   0x00001a10       0x48 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\led_ctrl.o
  .debug_frame   0x00001a58      0x13c C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\serial_ctrl.o
- .debug_frame   0x00001b94      0x168 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
- .debug_frame   0x00001cfc       0x40 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
- .debug_frame   0x00001d3c       0x74 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fiprintf.o)
- .debug_frame   0x00001db0       0x78 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-printf.o)
- .debug_frame   0x00001e28       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putchar.o)
- .debug_frame   0x00001e58       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-setvbuf.o)
- .debug_frame   0x00001e8c       0xdc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
- .debug_frame   0x00001f68       0x94 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
- .debug_frame   0x00001ffc       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wsetup.o)
- .debug_frame   0x00002028       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-abort.o)
- .debug_frame   0x00002050       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
- .debug_frame   0x000020d4       0x6c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
- .debug_frame   0x00002140      0x120 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
- .debug_frame   0x00002260       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
- .debug_frame   0x000022e4       0x74 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
- .debug_frame   0x00002358       0x68 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fvwrite.o)
- .debug_frame   0x000023c0       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fwalk.o)
- .debug_frame   0x00002414       0x9c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
- .debug_frame   0x000024b0       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-makebuf.o)
- .debug_frame   0x000024f8       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-malloc.o)
- .debug_frame   0x00002528       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
- .debug_frame   0x00002580       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memchr.o)
- .debug_frame   0x000025bc       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memmove.o)
- .debug_frame   0x000025ec       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memset.o)
- .debug_frame   0x00002620       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
- .debug_frame   0x00002650      0x26c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
- .debug_frame   0x000028bc       0x68 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putc.o)
- .debug_frame   0x00002924       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reallocr.o)
- .debug_frame   0x00002978       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-s_fpclassify.o)
- .debug_frame   0x00002998       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-sbrkr.o)
- .debug_frame   0x000029c4       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
- .debug_frame   0x00002aa8       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
- .debug_frame   0x00002ae4       0x88 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
- .debug_frame   0x00002b6c       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-strlen.o)
- .debug_frame   0x00002b8c       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wbuf.o)
- .debug_frame   0x00002bc8       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wcrtomb.o)
- .debug_frame   0x00002c28       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
- .debug_frame   0x00002c70       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-writer.o)
- .debug_frame   0x00002c9c       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-callocr.o)
- .debug_frame   0x00002cc4       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-closer.o)
- .debug_frame   0x00002cf0       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fclose.o)
- .debug_frame   0x00002d34       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fstatr.o)
- .debug_frame   0x00002d60       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-isattyr.o)
- .debug_frame   0x00002d8c       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-lseekr.o)
- .debug_frame   0x00002db8       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-readr.o)
- .debug_frame   0x00002de4       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reent.o)
- .debug_frame   0x00002e3c       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00002e64       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(bpabi.o)
- .debug_frame   0x00002eb8       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
- .debug_frame   0x00002eec       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00001b94      0x190 C:\Users\ernestrc\Documents\ITESO\2do_Semestre\SW de comunicacion\LinFrame\Sistemas Embebidos\01_scheduler_cooperative\SAMV71_Xplained_Ultra\Debug\lin.o
+ .debug_frame   0x00001d24       0x40 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-assert.o)
+ .debug_frame   0x00001d64       0x74 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fiprintf.o)
+ .debug_frame   0x00001dd8       0x78 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-printf.o)
+ .debug_frame   0x00001e50       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putchar.o)
+ .debug_frame   0x00001e80       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-setvbuf.o)
+ .debug_frame   0x00001eb4       0xdc e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00001f90       0x94 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x00002024       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00002050       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-abort.o)
+ .debug_frame   0x00002078       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x000020fc       0x6c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00002168      0x120 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00002288       0x84 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fputwc.o)
+ .debug_frame   0x0000230c       0x74 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-freer.o)
+ .debug_frame   0x00002380       0x68 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x000023e8       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x0000243c       0x9c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-locale.o)
+ .debug_frame   0x000024d8       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00002520       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-malloc.o)
+ .debug_frame   0x00002550       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000025a8       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memchr.o)
+ .debug_frame   0x000025e4       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00002614       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-memset.o)
+ .debug_frame   0x00002648       0x30 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00002678      0x26c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-mprec.o)
+ .debug_frame   0x000028e4       0x68 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-putc.o)
+ .debug_frame   0x0000294c       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x000029a0       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x000029c0       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000029ec       0xe4 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signal.o)
+ .debug_frame   0x00002ad0       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-signalr.o)
+ .debug_frame   0x00002b0c       0x88 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-stdio.o)
+ .debug_frame   0x00002b94       0x20 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00002bb4       0x3c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wbuf.o)
+ .debug_frame   0x00002bf0       0x60 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wcrtomb.o)
+ .debug_frame   0x00002c50       0x48 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00002c98       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-writer.o)
+ .debug_frame   0x00002cc4       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00002cec       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-closer.o)
+ .debug_frame   0x00002d18       0x44 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00002d5c       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00002d88       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00002db4       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x00002de0       0x2c e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-readr.o)
+ .debug_frame   0x00002e0c       0x58 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7\libc.a(lib_a-reent.o)
+ .debug_frame   0x00002e64       0x28 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002e8c       0x54 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(bpabi.o)
+ .debug_frame   0x00002ee0       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_divdi3.o)
+ .debug_frame   0x00002f14       0x34 e:/isystem/winideaopen9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7\libgcc.a(_udivdi3.o)

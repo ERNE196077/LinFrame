@@ -3,10 +3,11 @@
 /* 3 USARTs */
 
 
+	LinChannelType_t usart_channels[] =  {{0u,115200},
+										{1u, 115200u},
+										{2u, 115200u}};
 
 LinConfigType_t LinConfiguration = {
 	3,
-	{{0u,115200u},
-	{1u, 115200u},
-	{2u, 115200u}}
+	&usart_channels
 };
